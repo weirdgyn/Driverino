@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 61491FEA
 P 7800 6575
 AR Path="/61491FEA" Ref="#PWR?"  Part="1" 
@@ -29,7 +29,7 @@ $EndComp
 Wire Wire Line
 	7800 6375 7800 6575
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 61491FF1
 P 9000 6100
 AR Path="/61491FF1" Ref="#PWR?"  Part="1" 
@@ -69,7 +69,7 @@ Wire Wire Line
 Wire Wire Line
 	5575 5275 7050 5275
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492012
 P 8000 7700
 AR Path="/61492012" Ref="C?"  Part="1" 
@@ -89,7 +89,7 @@ F 10 "81-GRM1555C1H180JA1D" H 8000 7700 50  0001 C CNN "ProviderCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 6149201F
 P 7150 7700
 AR Path="/6149201F" Ref="C?"  Part="1" 
@@ -109,7 +109,7 @@ F 10 "81-GRM1555C1H180JA1D" H 7150 7700 50  0001 C CNN "ProviderCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 61492025
 P 7150 8050
 AR Path="/61492025" Ref="#PWR?"  Part="1" 
@@ -149,7 +149,7 @@ Connection ~ 8000 7450
 Wire Wire Line
 	7150 7450 7275 7450
 $Comp
-L device:CRYSTAL Y?
+L Driverino-rescue:CRYSTAL-device Y?
 U 1 1 61492041
 P 7575 7450
 AR Path="/61492041" Ref="Y?"  Part="1" 
@@ -168,7 +168,7 @@ F 9 "Murata" H 7575 7450 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 6149204C
 P 6575 4725
 AR Path="/6149204C" Ref="C?"  Part="1" 
@@ -191,7 +191,7 @@ Connection ~ 6575 5375
 Wire Wire Line
 	7700 6375 7700 6550
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 6149205B
 P 8975 6500
 AR Path="/6149205B" Ref="R?"  Part="1" 
@@ -303,7 +303,7 @@ A4
 Wire Wire Line
 	7075 9275 7375 9275
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 61492093
 P 8425 10050
 AR Path="/61492093" Ref="#PWR?"  Part="1" 
@@ -316,7 +316,7 @@ F 3 "" H 8425 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:ZENERsmall D?
+L Driverino-rescue:ZENERsmall-device D?
 U 1 1 6149209F
 P 8425 9625
 AR Path="/6149209F" Ref="D?"  Part="1" 
@@ -339,7 +339,7 @@ Wire Wire Line
 Wire Wire Line
 	8425 9725 8425 9900
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 614920A8
 P 7625 9275
 AR Path="/614920A8" Ref="R?"  Part="1" 
@@ -353,7 +353,7 @@ F 4 "" H 7625 9275 50  0001 C CNN "Provider"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 614920AF
 P 8050 9600
 AR Path="/614920AF" Ref="R?"  Part="1" 
@@ -383,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	15025 4450 15350 4450
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 614920C4
 P 15350 4800
 AR Path="/614920C4" Ref="#PWR?"  Part="1" 
@@ -406,7 +406,7 @@ Wire Wire Line
 Wire Wire Line
 	15025 4550 15200 4550
 $Comp
-L V2-30A110-A-symbols:ATmega32U4 U?
+L Driverino-rescue:ATmega32U4-V2-30A110-A-symbols U?
 U 1 1 614920D8
 P 8000 5425
 AR Path="/614920D8" Ref="U?"  Part="1" 
@@ -433,7 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	12675 5275 12550 5275
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 614920E8
 P 13625 5475
 AR Path="/614920E8" Ref="R?"  Part="1" 
@@ -452,7 +452,7 @@ F 9 "Panasonic" H 13625 5475 50  0001 C CNN "Manufacturer"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 614920EE
 P 13900 5775
 AR Path="/614920EE" Ref="#PWR?"  Part="1" 
@@ -481,7 +481,7 @@ RX_232
 Wire Wire Line
 	13900 6550 13900 6750
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 614920FC
 P 13900 6750
 AR Path="/614920FC" Ref="#PWR?"  Part="1" 
@@ -496,7 +496,7 @@ $EndComp
 Wire Wire Line
 	14275 6550 13900 6550
 $Comp
-L conn:CONN_3 P?
+L Driverino-rescue:CONN_3-conn P?
 U 1 1 61492109
 P 14625 6450
 AR Path="/61492109" Ref="P?"  Part="1" 
@@ -517,7 +517,7 @@ $EndComp
 Wire Wire Line
 	13375 5375 13250 5375
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61492116
 P 13625 5375
 AR Path="/61492116" Ref="R?"  Part="1" 
@@ -546,7 +546,7 @@ A5
 Wire Wire Line
 	5125 9275 5425 9275
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 61492123
 P 6150 10050
 AR Path="/61492123" Ref="#PWR?"  Part="1" 
@@ -559,7 +559,7 @@ F 3 "" H 6150 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 6149212A
 P 5675 9275
 AR Path="/6149212A" Ref="R?"  Part="1" 
@@ -573,7 +573,7 @@ F 4 "" H 5675 9275 50  0001 C CNN "Provider"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492132
 P 6150 9600
 AR Path="/61492132" Ref="C?"  Part="1" 
@@ -597,7 +597,7 @@ Wire Wire Line
 Wire Wire Line
 	5925 9275 6150 9275
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492142
 P 9075 2675
 AR Path="/61492142" Ref="C?"  Part="1" 
@@ -631,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	8875 2375 8775 2375
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492155
 P 9075 2375
 AR Path="/61492155" Ref="C?"  Part="1" 
@@ -661,7 +661,7 @@ Wire Wire Line
 Wire Wire Line
 	7275 2575 6925 2575
 $Comp
-L ad:ADM3101EACPZ-250R7 U?
+L Driverino-rescue:ADM3101EACPZ-250R7-ad U?
 U 1 1 61492162
 P 8025 2225
 AR Path="/61492162" Ref="U?"  Part="1" 
@@ -675,7 +675,7 @@ F 4 "Analog Devices" H 8025 2225 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 6149216D
 P 6475 2075
 AR Path="/6149216D" Ref="C?"  Part="1" 
@@ -699,7 +699,7 @@ Wire Wire Line
 Wire Wire Line
 	6225 2075 6225 2375
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492181
 P 6900 1975
 AR Path="/61492181" Ref="C?"  Part="1" 
@@ -728,7 +728,7 @@ Connection ~ 6575 1775
 Wire Wire Line
 	6575 1775 6575 1275
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492192
 P 6000 2075
 AR Path="/61492192" Ref="C?"  Part="1" 
@@ -752,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 2275 6000 2375
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 6149219B
 P 6000 2475
 AR Path="/6149219B" Ref="#PWR?"  Part="1" 
@@ -765,7 +765,7 @@ F 3 "" H 6000 2475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 614921A1
 P 9575 2200
 AR Path="/614921A1" Ref="#PWR?"  Part="1" 
@@ -791,7 +791,7 @@ RX_232
 Text Label 6925 2675 0    50   ~ 0
 TX_232
 $Comp
-L conn:CONN_3X2 P?
+L Driverino-rescue:CONN_3X2-conn P?
 U 1 1 614921D2
 P 14625 4600
 AR Path="/614921D2" Ref="P?"  Part="1" 
@@ -804,7 +804,7 @@ F 3 "" H 14625 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_5 P?
+L Driverino-rescue:CONN_5-conn P?
 U 1 1 614921D8
 P 14625 5475
 AR Path="/614921D8" Ref="P?"  Part="1" 
@@ -818,7 +818,7 @@ F 3 "" H 14625 5475 50  0001 C CNN
 $EndComp
 NoConn ~ 14225 5575
 $Comp
-L power:VBUS #PWR?
+L Driverino-rescue:VBUS-power #PWR?
 U 1 1 614921DF
 P 12550 5000
 AR Path="/614921DF" Ref="#PWR?"  Part="1" 
@@ -833,7 +833,7 @@ $EndComp
 Wire Wire Line
 	12550 5000 12550 5275
 $Comp
-L device:FUSE F?
+L Driverino-rescue:FUSE-device F?
 U 1 1 614921EC
 P 12925 5275
 AR Path="/614921EC" Ref="F?"  Part="1" 
@@ -860,7 +860,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 6325 5600 6925
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 614921FB
 P 5600 6125
 AR Path="/614921FB" Ref="C?"  Part="1" 
@@ -882,7 +882,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 5075 5600 4775
 $Comp
-L device:INDUCTOR_SMALL L?
+L Driverino-rescue:INDUCTOR_SMALL-device L?
 U 1 1 6149220D
 P 7500 3975
 AR Path="/6149220D" Ref="L?"  Part="1" 
@@ -901,7 +901,7 @@ $EndComp
 Wire Wire Line
 	7500 3675 7500 3725
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492219
 P 5325 6125
 AR Path="/61492219" Ref="C?"  Part="1" 
@@ -929,7 +929,7 @@ Wire Wire Line
 Wire Wire Line
 	5325 6325 5325 6925
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 6149222A
 P 5325 7050
 AR Path="/6149222A" Ref="#PWR?"  Part="1" 
@@ -951,7 +951,7 @@ Wire Wire Line
 Wire Wire Line
 	9775 6500 9950 6500
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 61492236
 P 9950 6500
 AR Path="/61492236" Ref="#PWR?"  Part="1" 
@@ -964,7 +964,7 @@ F 3 "" H 9950 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:LED D?
+L Driverino-rescue:LED-device D?
 U 1 1 6149223C
 P 9575 6500
 AR Path="/6149223C" Ref="D?"  Part="1" 
@@ -983,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	6225 5675 6225 5875
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 6149224B
 P 6225 6125
 AR Path="/6149224B" Ref="R?"  Part="1" 
@@ -1002,7 +1002,7 @@ F 9 "" H 6225 6125 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:LED D?
+L Driverino-rescue:LED-device D?
 U 1 1 61492251
 P 6225 6650
 AR Path="/61492251" Ref="D?"  Part="1" 
@@ -1023,7 +1023,7 @@ Wire Wire Line
 Wire Wire Line
 	6225 5575 6225 4775
 $Comp
-L power:VBUS #PWR?
+L Driverino-rescue:VBUS-power #PWR?
 U 1 1 61492261
 P 6225 4775
 AR Path="/61492261" Ref="#PWR?"  Part="1" 
@@ -1042,7 +1042,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 4300 9000 5975
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61492298
 P 12550 5575
 AR Path="/61492298" Ref="C?"  Part="1" 
@@ -1057,7 +1057,7 @@ F 5 "" H 12550 5575 50  0001 C CNN "Code"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 614922A0
 P 12225 5575
 AR Path="/614922A0" Ref="R?"  Part="1" 
@@ -1072,7 +1072,7 @@ F 5 "" H 12225 5575 50  0001 C CNN "Code"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device2:CT C?
+L Driverino-rescue:CT-device2 C?
 U 1 1 614922A6
 P 11975 5575
 AR Path="/614922A6" Ref="C?"  Part="1" 
@@ -1096,7 +1096,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 5775 12550 5875
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 614922B2
 P 11975 5950
 AR Path="/614922B2" Ref="#PWR?"  Part="1" 
@@ -1139,7 +1139,7 @@ SCK
 Text HLabel 15200 4550 2    50   Input ~ 0
 MOSI
 $Comp
-L device:SW_PUSH SW?
+L Driverino-rescue:SW_PUSH-device SW?
 U 1 1 615055F8
 P 1550 5300
 AR Path="/615055F8" Ref="SW?"  Part="1" 
@@ -1154,7 +1154,7 @@ $EndComp
 Wire Wire Line
 	1025 5300 1025 5475
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 615055FF
 P 1025 5475
 AR Path="/615055FF" Ref="#PWR?"  Part="1" 
@@ -1169,7 +1169,7 @@ $EndComp
 Wire Wire Line
 	1025 5300 1250 5300
 $Comp
-L device:DIODE D?
+L Driverino-rescue:DIODE-device D?
 U 1 1 61505606
 P 2025 4950
 AR Path="/61505606" Ref="D?"  Part="1" 
@@ -1182,7 +1182,7 @@ F 3 "" H 2025 4950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61505612
 P 2475 4950
 AR Path="/61505612" Ref="R?"  Part="1" 
@@ -1201,7 +1201,7 @@ F 9 "" H 2475 4950 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 6150561D
 P 2900 4950
 AR Path="/6150561D" Ref="C?"  Part="1" 
@@ -1217,7 +1217,7 @@ F 6 "" H 2900 4950 50  0001 C CNN "Code"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 61505628
 P 3375 4950
 AR Path="/61505628" Ref="C?"  Part="1" 
@@ -1266,7 +1266,7 @@ Wire Wire Line
 Wire Wire Line
 	3375 5150 3375 5300
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 6150564B
 P 3375 5400
 AR Path="/6150564B" Ref="#PWR?"  Part="1" 
@@ -1309,7 +1309,7 @@ D8
 Text Label 13350 8600 2    50   ~ 0
 D6
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61643BD7
 P 12400 8000
 AR Path="/61643BD7" Ref="R?"  Part="1" 
@@ -1329,7 +1329,7 @@ Wire Wire Line
 Text HLabel 12800 8000 2    50   Input ~ 0
 FGOUT
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61658E20
 P 13725 7725
 AR Path="/61658E20" Ref="R?"  Part="1" 
@@ -1349,7 +1349,7 @@ Wire Wire Line
 Text HLabel 14125 7725 2    50   Output ~ 0
 CS2
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61663BE3
 P 13725 8025
 AR Path="/61663BE3" Ref="R?"  Part="1" 
@@ -1369,7 +1369,7 @@ Wire Wire Line
 Text HLabel 14125 8025 2    50   Output ~ 0
 DRVOFF
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61663BF1
 P 13725 8325
 AR Path="/61663BF1" Ref="R?"  Part="1" 
@@ -1389,7 +1389,7 @@ Wire Wire Line
 Text HLabel 14125 8325 2    50   Output ~ 0
 PWM
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 6166E2E1
 P 13725 8600
 AR Path="/6166E2E1" Ref="R?"  Part="1" 
@@ -1409,7 +1409,7 @@ Wire Wire Line
 Text HLabel 14125 8600 2    50   Output ~ 0
 BRAKE
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 616A9031
 P 12400 7700
 AR Path="/616A9031" Ref="R?"  Part="1" 
@@ -1433,7 +1433,7 @@ D12
 Wire Wire Line
 	8950 5075 9175 5075
 $Comp
-L power:+5V #PWR034
+L Driverino-rescue:+5V-power #PWR034
 U 1 1 608E69C0
 P 7500 3675
 F 0 "#PWR034" H 7500 3765 20  0001 C CNN
@@ -1444,7 +1444,7 @@ F 3 "" H 7500 3675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR038
+L Driverino-rescue:+5V-power #PWR038
 U 1 1 608E746F
 P 8500 4075
 F 0 "#PWR038" H 8500 4165 20  0001 C CNN
@@ -1455,7 +1455,7 @@ F 3 "" H 8500 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR027
+L Driverino-rescue:+5V-power #PWR027
 U 1 1 608E799A
 P 5600 4775
 F 0 "#PWR027" H 5600 4865 20  0001 C CNN
@@ -1466,7 +1466,7 @@ F 3 "" H 5600 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR024
+L Driverino-rescue:+5V-power #PWR024
 U 1 1 608F255D
 P 2475 4450
 F 0 "#PWR024" H 2475 4540 20  0001 C CNN
@@ -1477,7 +1477,7 @@ F 3 "" H 2475 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR031
+L Driverino-rescue:+5V-power #PWR031
 U 1 1 608F2AA6
 P 6575 1275
 F 0 "#PWR031" H 6575 1365 20  0001 C CNN
@@ -1488,7 +1488,7 @@ F 3 "" H 6575 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR040
+L Driverino-rescue:+5V-power #PWR040
 U 1 1 608F3031
 P 9400 5725
 F 0 "#PWR040" H 9400 5815 20  0001 C CNN
@@ -1499,7 +1499,7 @@ F 3 "" H 9400 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR050
+L Driverino-rescue:+5V-power #PWR050
 U 1 1 608F3597
 P 15350 4200
 F 0 "#PWR050" H 15350 4290 20  0001 C CNN
@@ -1514,7 +1514,7 @@ Wire Wire Line
 Wire Wire Line
 	9825 4975 9950 4975
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 6149228F
 P 9950 4975
 AR Path="/6149228F" Ref="#PWR?"  Part="1" 
@@ -1527,7 +1527,7 @@ F 3 "" H 9950 4975 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 61492289
 P 9575 4975
 AR Path="/61492289" Ref="R?"  Part="1" 
@@ -1542,7 +1542,7 @@ F 5 "" H 9575 4975 50  0001 C CNN "Code"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR035
+L Driverino-rescue:+5V-power #PWR035
 U 1 1 6094148F
 P 7700 6550
 F 0 "#PWR035" H 7700 6640 20  0001 C CNN
@@ -1591,7 +1591,7 @@ A3
 Wire Wire Line
 	9500 9275 9800 9275
 $Comp
-L power:GND #PWR?
+L Driverino-rescue:GND-power #PWR?
 U 1 1 60ACA1E9
 P 10525 10050
 AR Path="/60ACA1E9" Ref="#PWR?"  Part="1" 
@@ -1604,7 +1604,7 @@ F 3 "" H 10525 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L Driverino-rescue:R-device R?
 U 1 1 60ACA1F4
 P 10050 9275
 AR Path="/60ACA1F4" Ref="R?"  Part="1" 
@@ -1618,7 +1618,7 @@ F 4 "" H 10050 9275 50  0001 C CNN "Provider"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C?
+L Driverino-rescue:C-device C?
 U 1 1 60ACA200
 P 10525 9600
 AR Path="/60ACA200" Ref="C?"  Part="1" 
@@ -1642,7 +1642,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 9275 10525 9275
 $Comp
-L power:+5V #PWR041
+L Driverino-rescue:+5V-power #PWR041
 U 1 1 60AD8D17
 P 9500 9075
 F 0 "#PWR041" H 9500 9165 20  0001 C CNN
