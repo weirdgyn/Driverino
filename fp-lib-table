@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Driverino)(type KiCad)(uri ${KIPRJMOD}/Driverino.pretty)(options "")(descr ""))
+)

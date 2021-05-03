@@ -271,7 +271,7 @@
   )
 
   (module Driverino:TDD01H0SB1R (layer F.Cu) (tedit 608EFE35) (tstamp 608F82F0)
-    (at 161 99)
+    (at 192 83)
     (path /614792E0/609E3044)
     (fp_text reference JP1 (at 0 4.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -348,7 +348,7 @@
   )
 
   (module Driverino:TDD01H0SB1R (layer F.Cu) (tedit 608EFE10) (tstamp 608F8328)
-    (at 161 109.25)
+    (at 184 83)
     (path /613CDDB7/6091D84F)
     (fp_text reference JP2 (at 0 -4.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
