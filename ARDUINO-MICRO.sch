@@ -740,15 +740,14 @@ P 12925 5275
 AR Path="/614921EC" Ref="F?"  Part="1" 
 AR Path="/614792E0/614921EC" Ref="F1"  Part="1" 
 F 0 "F1" H 12925 5492 40  0000 C CNN
-F 1 "0.5A " H 12925 5416 40  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric" H 12925 5275 60  0001 C CNN
+F 1 "0.2A " H 12925 5416 40  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 12925 5275 60  0001 C CNN
 F 3 "" H 12925 5275 60  0001 C CNN
 F 4 "Bourns" H 12925 5275 50  0001 C CNN "Manufacturer"
-F 5 "" H 12925 5275 50  0001 C CNN "P/N"
-F 6 "652-MF-MSMF050-2" H 12925 5275 50  0001 C CNN "ProviderCode"
-F 7 "Mouser" H 12925 5275 50  0001 C CNN "Provider"
-F 8 "MF-MSMF050-2" H 12925 5275 50  0001 C CNN "manf#"
-F 9 "" H 12925 5275 50  0001 C CNN "Productor"
+F 5 "652-MF-NSMF020X-2" H 12925 5275 50  0001 C CNN "ProviderCode"
+F 6 "Mouser" H 12925 5275 50  0001 C CNN "Provider"
+F 7 "MF-NSMF020X-2" H 12925 5275 50  0001 C CNN "manf#"
+F 8 "" H 12925 5275 50  0001 C CNN "Productor"
 	1    12925 5275
 	1    0    0    -1  
 $EndComp
@@ -1446,7 +1445,7 @@ F 3 "" H 13900 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Bridged12 JP?
+L Driverino-rescue:Jumper_3_Bridged12-Jumper JP?
 U 1 1 609E3044
 P 13900 2075
 AR Path="/609E3044" Ref="JP?"  Part="1" 

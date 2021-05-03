@@ -341,6 +341,30 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Driverino-rescue_Jumper_3_Bridged12-Jumper
+#
+DEF Driverino-rescue_Jumper_3_Bridged12-Jumper JP 0 0 Y N 1 F N
+F0 "JP" -100 -100 50 H V C CNN
+F1 "Driverino-rescue_Jumper_3_Bridged12-Jumper" 0 110 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*3Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A -65 -50 89 1282 518 0 1 0 N -120 20 -10 20
+C -130 0 20 0 0 0 N
+C 0 0 20 0 0 0 N
+C 130 0 20 0 0 0 N
+P 2 0 1 0 0 -50 0 -20 N
+X A 1 -250 0 100 R 50 50 1 1 P
+X C 2 0 -150 100 U 50 50 1 1 I
+X B 3 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Driverino-rescue_LED-device
 #
 DEF Driverino-rescue_LED-device D 0 40 Y N 1 F N
@@ -490,56 +514,31 @@ X A 2 -100 0 60 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Jumper_Jumper_3_Bridged12
-#
-DEF Jumper_Jumper_3_Bridged12 JP 0 0 Y N 1 F N
-F0 "JP" -100 -100 50 H V C CNN
-F1 "Jumper_Jumper_3_Bridged12" 0 110 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Jumper*
- TestPoint*3Pads*
- TestPoint*Bridge*
-$ENDFPLIST
-DRAW
-A -65 -50 89 1282 518 0 1 0 N -120 20 -10 20
-C -130 0 20 0 0 0 N
-C 0 0 20 0 0 0 N
-C 130 0 20 0 0 0 N
-P 2 0 1 0 0 -50 0 -20 N
-X A 1 -250 0 100 R 50 50 1 1 P
-X C 2 0 -150 100 U 50 50 1 1 I
-X B 3 250 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # power_HT
 #
 DEF power_HT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 120 50 H I C CNN
-F1 "power_HT" 0 90 50 H V C CNN
+F0 "#PWR" 0 120 20 H I C CNN
+F1 "power_HT" 0 90 30 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 3 0 1 0 0 0 0 40 0 40 N
 P 6 0 1 0 0 40 20 20 0 70 -20 20 0 40 0 40 N
-X HT 1 0 0 0 U 50 50 0 0 W N
+X HT 1 0 0 0 U 20 20 0 0 W N
 ENDDRAW
 ENDDEF
 #
 # power_VCC
 #
 DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
+F0 "#PWR" 0 100 30 H I C CNN
+F1 "power_VCC" 0 100 30 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
+C 0 50 20 0 1 0 N
+P 3 0 1 0 0 0 0 30 0 30 N
+X VCC 1 0 0 0 U 20 20 0 0 W N
 ENDDRAW
 ENDDEF
 #

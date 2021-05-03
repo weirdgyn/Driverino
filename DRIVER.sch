@@ -608,8 +608,8 @@ U 1 1 614328C9
 P 10675 1200
 AR Path="/614328C9" Ref="P?"  Part="1" 
 AR Path="/613CDDB7/614328C9" Ref="P5"  Part="1" 
-F 0 "P5" H 10542 887 40  0000 C CNN
-F 1 "PWR_IN" H 10542 963 40  0000 C CNN
+F 0 "P5" H 10850 1250 40  0000 L CNN
+F 1 "PWR_IN" H 10850 1150 40  0000 L CNN
 F 2 "Driverino:39773-0002" H 10675 1200 50  0001 C CNN
 F 3 "" H 10675 1200 50  0001 C CNN
 F 4 "" H 10675 1200 50  0001 C CNN "P/N"
@@ -619,7 +619,7 @@ F 7 "Molex" H 10675 1200 50  0001 C CNN "Manufacturer"
 F 8 "Mouser" H 10675 1200 50  0001 C CNN "Provider"
 F 9 "538-39773-0002" H 10675 1200 50  0001 C CNN "ProviderCode"
 	1    10675 1200
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:HT #PWR?
@@ -1302,7 +1302,7 @@ F 8 "71-CRCW040210K0FKEDC" H 9550 3025 50  0001 C CNN "ProviderCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Bridged12 JP?
+L Driverino-rescue:Jumper_3_Bridged12-Jumper JP?
 U 1 1 6091D84F
 P 9975 2400
 AR Path="/6091D84F" Ref="JP?"  Part="1" 
