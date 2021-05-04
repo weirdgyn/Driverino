@@ -1146,20 +1146,6 @@ Wire Wire Line
 Wire Wire Line
 	1825 7300 1825 7425
 $Comp
-L Driverino-rescue:GND-power #PWR?
-U 1 1 60B5A3ED
-P 1825 7425
-AR Path="/60B5A3ED" Ref="#PWR?"  Part="1" 
-AR Path="/614792E0/60B5A3ED" Ref="#PWR?"  Part="1" 
-AR Path="/613CDDB7/60B5A3ED" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 1825 7425 30  0001 C CNN
-F 1 "GND" H 1825 7355 30  0001 C CNN
-F 2 "" H 1825 7425 50  0001 C CNN
-F 3 "" H 1825 7425 50  0001 C CNN
-	1    1825 7425
-	1    0    0    -1  
-$EndComp
-$Comp
 L Driverino-rescue:LED-device D?
 U 1 1 60B5A3F3
 P 1825 7100
@@ -1351,4 +1337,18 @@ Wire Wire Line
 	6050 3600 6050 4450
 Wire Wire Line
 	5175 3600 6050 3600
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 60B5A3ED
+P 1825 7425
+AR Path="/60B5A3ED" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/60B5A3ED" Ref="#PWR?"  Part="1" 
+AR Path="/613CDDB7/60B5A3ED" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 1825 7425 30  0001 C CNN
+F 1 "GND" H 1825 7355 30  0001 C CNN
+F 2 "" H 1825 7425 50  0001 C CNN
+F 3 "" H 1825 7425 50  0001 C CNN
+	1    1825 7425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

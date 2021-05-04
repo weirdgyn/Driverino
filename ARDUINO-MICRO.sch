@@ -1112,101 +1112,23 @@ Text Label 13250 8250 2    50   ~ 0
 D8
 Text Label 13250 8525 2    50   ~ 0
 D6
-Text HLabel 12650 7950 2    50   Input ~ 0
+Text HLabel 13375 8525 2    50   Input ~ 0
 FGOUT
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 61658E20
-P 13625 7650
-AR Path="/61658E20" Ref="R?"  Part="1" 
-AR Path="/614792E0/61658E20" Ref="R14"  Part="1" 
-F 0 "R14" V 13440 7650 40  0000 C CNN
-F 1 "0R DNM" V 13516 7650 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13555 7650 30  0001 C CNN
-F 3 "" H 13625 7650 30  0000 C CNN
-F 4 "Mouser" H 13625 7650 50  0001 C CNN "Provider"
-F 5 "Vishay" H 13625 7650 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 13625 7650 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 13625 7650 50  0001 C CNN "manf#"
-	1    13625 7650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13250 7650 13375 7650
-Wire Wire Line
-	13875 7650 14025 7650
-Text HLabel 14025 7650 2    50   Output ~ 0
+Text HLabel 13375 7650 2    50   Output ~ 0
 CS2
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 61663BE3
-P 13625 7950
-AR Path="/61663BE3" Ref="R?"  Part="1" 
-AR Path="/614792E0/61663BE3" Ref="R15"  Part="1" 
-F 0 "R15" V 13440 7950 40  0000 C CNN
-F 1 "0R DNM" V 13516 7950 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13555 7950 30  0001 C CNN
-F 3 "" H 13625 7950 30  0000 C CNN
-F 4 "Mouser" H 13625 7950 50  0001 C CNN "Provider"
-F 5 "Vishay" H 13625 7950 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 13625 7950 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 13625 7950 50  0001 C CNN "manf#"
-	1    13625 7950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	13250 7950 13375 7950
-Wire Wire Line
-	13875 7950 14025 7950
-Text HLabel 14025 7950 2    50   Output ~ 0
+Text HLabel 12150 7950 2    50   Output ~ 0
 DRVOFF
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 61663BF1
-P 13625 8250
-AR Path="/61663BF1" Ref="R?"  Part="1" 
-AR Path="/614792E0/61663BF1" Ref="R16"  Part="1" 
-F 0 "R16" V 13440 8250 40  0000 C CNN
-F 1 "0R DNM" V 13516 8250 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13555 8250 30  0001 C CNN
-F 3 "" H 13625 8250 30  0000 C CNN
-F 4 "Mouser" H 13625 8250 50  0001 C CNN "Provider"
-F 5 "Vishay" H 13625 8250 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 13625 8250 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 13625 8250 50  0001 C CNN "manf#"
-	1    13625 8250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	13250 8250 13375 8250
-Wire Wire Line
-	13875 8250 14025 8250
-Text HLabel 14025 8250 2    50   Output ~ 0
+Text HLabel 13375 8250 2    50   Output ~ 0
 PWM
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 6166E2E1
-P 13625 8525
-AR Path="/6166E2E1" Ref="R?"  Part="1" 
-AR Path="/614792E0/6166E2E1" Ref="R17"  Part="1" 
-F 0 "R17" V 13440 8525 40  0000 C CNN
-F 1 "0R DNM" V 13516 8525 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 13555 8525 30  0001 C CNN
-F 3 "" H 13625 8525 30  0000 C CNN
-F 4 "Mouser" H 13625 8525 50  0001 C CNN "Provider"
-F 5 "Vishay" H 13625 8525 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 13625 8525 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 13625 8525 50  0001 C CNN "manf#"
-	1    13625 8525
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	13250 8525 13375 8525
-Wire Wire Line
-	13875 8525 14025 8525
-Text HLabel 14025 8525 2    50   Output ~ 0
+Text HLabel 13375 7950 2    50   Output ~ 0
 BRAKE
-Text HLabel 12650 7650 2    50   Input ~ 0
+Text HLabel 12150 7650 2    50   Input ~ 0
 FAULT
 Wire Wire Line
 	8950 5075 9175 5075
@@ -1651,48 +1573,6 @@ F 7 "RCC04020000Z0ED" H 12250 8250 50  0001 C CNN "manf#"
 $EndComp
 Text Label 11875 7650 2    50   ~ 0
 D12
-Wire Wire Line
-	12500 7650 12650 7650
-Wire Wire Line
-	11875 7650 12000 7650
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 616A9031
-P 12250 7650
-AR Path="/616A9031" Ref="R?"  Part="1" 
-AR Path="/614792E0/616A9031" Ref="R9"  Part="1" 
-F 0 "R9" V 12065 7650 40  0000 C CNN
-F 1 "0R DNM" V 12141 7650 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 12180 7650 30  0001 C CNN
-F 3 "" H 12250 7650 30  0000 C CNN
-F 4 "Mouser" H 12250 7650 50  0001 C CNN "Provider"
-F 5 "Vishay" H 12250 7650 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 12250 7650 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 12250 7650 50  0001 C CNN "manf#"
-	1    12250 7650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12500 7950 12650 7950
-Wire Wire Line
-	11875 7950 12000 7950
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 61643BD7
-P 12250 7950
-AR Path="/61643BD7" Ref="R?"  Part="1" 
-AR Path="/614792E0/61643BD7" Ref="R10"  Part="1" 
-F 0 "R10" V 12065 7950 40  0000 C CNN
-F 1 "0R DNM" V 12141 7950 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 12180 7950 30  0001 C CNN
-F 3 "" H 12250 7950 30  0000 C CNN
-F 4 "Mouser" H 12250 7950 50  0001 C CNN "Provider"
-F 5 "Vishay" H 12250 7950 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 12250 7950 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 12250 7950 50  0001 C CNN "manf#"
-	1    12250 7950
-	0    1    1    0   
-$EndComp
 Text Label 11875 7950 2    50   ~ 0
 D5
 $Comp
@@ -1876,15 +1756,14 @@ AR Path="/6149209F" Ref="D?"  Part="1"
 AR Path="/614792E0/6149209F" Ref="D4"  Part="1" 
 F 0 "D4" V 8405 9556 40  0000 R CNN
 F 1 "VZ=5V" V 8337 9556 30  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 8325 9550 60  0001 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8325 9550 60  0001 R CNN
 F 3 "" H 8375 9625 60  0000 C CNN
 F 4 "Mouser" H 8375 9625 50  0001 C CNN "Provider"
 F 5 "" H 8375 9625 50  0001 C CNN "Code"
-F 6 "" H 8375 9625 50  0001 C CNN "P/N"
-F 7 "" H 8375 9625 50  0001 C CNN "Productor"
-F 8 "BZT52-C4V7X" H 8375 9625 50  0001 C CNN "manf#"
-F 9 "Nexperia" H 8375 9625 50  0001 C CNN "Manufacturer"
-F 10 "771-BZT52-C4V7X" H 8375 9625 50  0001 C CNN "ProviderCode"
+F 6 "" H 8375 9625 50  0001 C CNN "Productor"
+F 7 "BZX884S-C5V1YL" H 8375 9625 50  0001 C CNN "manf#"
+F 8 "Nexperia" H 8375 9625 50  0001 C CNN "Manufacturer"
+F 9 "771-BZX884S-C5V1YL" H 8375 9625 50  0001 C CNN "ProviderCode"
 	1    8375 9625
 	0    -1   -1   0   
 $EndComp
@@ -1958,4 +1837,10 @@ F 7 "810-C3216X7R1H106160" H 12250 5575 50  0001 C CNN "ProviderCode"
 $EndComp
 Text Label 11875 8250 2    50   ~ 0
 D4
+Wire Wire Line
+	11875 7950 12150 7950
+Wire Wire Line
+	13250 7650 13375 7650
+Wire Wire Line
+	11875 7650 12150 7650
 $EndSCHEMATC
