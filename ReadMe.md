@@ -6,7 +6,7 @@ Driverino is a pretty simple, low power, driver for [BLDC](https://en.wikipedia.
 The project target was to create a very small unit capable of driving a motor rated about 50-100W.
 The board is fitted with ATmega32U4 micro (the same of Arduino Micro Pro commercial boards). Once the correct bootloader has been burned-in trough ICSP connector the board should act as an Arduino board (at least for programming/debugging task) and also to drive a motor connecting it trough phases and [Hall](https://en.wikipedia.org/wiki/Hall_effect_sensor)'s sensors connectors.
 The project includes:
- 1. Fully designed 2 layers PCB board;
+ 1. Fully designed 2 layers PCB board (KiCAD);
  2. Driverino firmware sources;
  3. MCT8316Z library sources.
 
@@ -49,3 +49,4 @@ TBD
 * [Atmel/Microchip ATMega32U4](https://www.microchip.com/wwwproducts/en/ATmega32U4)
 * [TI MCT8316Z](https://www.ti.com/product/MCT8316Z?keyMatch=MCT8316Z&tisearch=search-everything)
 * [Arduino](https://www.arduino.cc/)
+* [KiCAD](https://www.kicad.org/)
