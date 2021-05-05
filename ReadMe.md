@@ -1,6 +1,6 @@
 # Driverino 
 
-## "Driverino" (italian noun - means 'small driver').
+## *"Driverino" (italian noun - means 'small driver').*
 
 Driverino is a pretty simple, low power, driver for BLDC sensored motors.
 The project target was to create a very small unit capable of drving a sensored BLDC motor rated about 50-100W, the board itself
@@ -31,8 +31,9 @@ The library allows Arduino user to interact with BLDC motors without knowledge o
 * Standard R/C input compatibile.
 
 The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max).
-Driverino should support different kind of HALL sensors (analog single ended, analog differtial, digital) and also different
-sensors power supply rates (3.3V and 5V).
+Driverino supports different kind of HALL sensors (analog single ended, analog differtial, digital) and also different
+sensors power supply rates (3.3V and 5V) to correctly fit for different sensors some soldering is required by default 
+the board project is fitted for digital 5V sensors.
 
 ## Firmware
 
