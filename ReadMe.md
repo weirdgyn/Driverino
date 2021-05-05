@@ -6,7 +6,7 @@ Driverino is a pretty simple, low power, driver for BLDC sensored motors.
 The project target was to create a very small unit capable of drving a sensored BLDC motor rated about 50-100W, the board itself
 is quite small measuring only 26x41mm.
 The board is fitted with ATmega32U4 unit (the same of Arduino Micro Pro commercial boards). Once the correct bootloader
-has been burned-in trough ICSP connector the board should act as Arduino Pro micro Board (at least from the programming 
+has been burned-in trough ICSP connector the board should act as an Arduino board (at least for programming/debugging 
 task).
 The board project includes:
  1. Fully designed 2 layers PCB board;
