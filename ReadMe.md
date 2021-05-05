@@ -3,11 +3,10 @@
 ## *"Driverino" (italian noun : 'small driver').*
 
 Driverino is a pretty simple, low power, driver for [BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor) sensored motors.
-The project target was to create a very small unit capable of drving a sensored BLDC motor rated about 50-100W, the board itself
-is quite small measuring only 26x41mm.
-The board is fitted with ATmega32U4 unit (the same of Arduino Micro Pro commercial boards). Once the correct bootloader
+The project target was to create a very small unit capable of drving a motor rated about 50-100W.
+The board is fitted with ATmega32U4 micro (the same of Arduino Micro Pro commercial boards). Once the correct bootloader
 has been burned-in trough ICSP connector the board should act as an Arduino board (at least for programming/debugging 
-task).
+task) and also to drive a motor connecting it trough phases and Hall sensors connectors.
 The project includes:
  1. Fully designed 2 layers PCB board;
  2. Driverino firmware sources;
@@ -19,18 +18,18 @@ The firmware allows also:
 * motor/driver status monitoring;
 * R/C ESC emulation.
 
-The library allows Arduino user to interact with BLDC motors without knowledge of MCT8316Z chip and [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) protocol.
+The library allows Arduino users to interact with BLDC motors without knowledge of MCT8316Z chip and [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface) protocol.
 
 ## Driverino features
 
 * ATmega32U4 microcontroller;
 * Micro [USB](https://en.wikipedia.org/wiki/USB) interface;
 * MCT8316Z motor driver;
-* 41x26mm;
+* 41x26mm (size);
 * RS232 interface;
 * Standard R/C input compatibile.
 
-The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max).
+The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max) mimic a BEC R/C feature.
 Driverino supports a variety of different types of Hall's sensors (analog single ended, analog differtial, digital) and also different
 sensors supply rates (3.3V and 5V). To correctly fit for a specific sensor kind some soldering may be required: by default 
 the board project is fitted for digital 5V sensors.
