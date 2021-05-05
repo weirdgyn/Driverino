@@ -4,11 +4,9 @@
 
 Driverino is a pretty simple, low power, driver for [BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor) sensored motors.
 The project target was to create a very small unit capable of driving a motor rated about 50-100W.
-The board is fitted with ATmega32U4 micro (the same of Arduino Micro Pro commercial boards). Once the correct bootloader
-has been burned-in trough ICSP connector the board should act as an Arduino board (at least for programming/debugging 
-task) and also to drive a motor connecting it trough phases and [Hall](https://en.wikipedia.org/wiki/Hall_effect_sensor)'s sensors connectors.
+The board is fitted with ATmega32U4 micro (the same of Arduino Micro Pro commercial boards). Once the correct bootloader has been burned-in trough ICSP connector the board should act as an Arduino board (at least for programming/debugging task) and also to drive a motor connecting it trough phases and [Hall](https://en.wikipedia.org/wiki/Hall_effect_sensor)'s sensors connectors.
 The project includes:
- 1. Fully designed 2 layers PCB board;
+ 1. Fully designed 2 layers PCB board (KiCAD);
  2. Driverino firmware sources;
  3. MCT8316Z library sources.
 
@@ -29,10 +27,8 @@ The library allows Arduino users to interact with BLDC motors without knowledge 
 * RS232 interface;
 * Standard R/C input compatibile.
 
-The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max) mimic a BEC R/C feature.
-Driverino supports a variety of different types of Hall's sensors (analog single ended, analog differtial, digital) and also different
-sensors supply rates (3.3V and 5V). To correctly fit for a specific sensor kind some soldering may be required: by default 
-the board project is fitted for digital 5V sensors.
+The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max) mimicking a BEC R/C feature.
+Driverino supports a variety of different types of Hall's sensors (analog single ended, analog differtial, digital) and also different sensors supply rates (3.3V and 5V). To correctly fit for a specific sensor kind some soldering may be required: by default the board project is fitted for digital 5V sensors.
 
 ## Firmware
 
@@ -44,12 +40,18 @@ TBD
 
 # TODO:
 
-* Optimize PCB layout.
-* Write Library.
-* Write Firmware.
+- [ ] Add features:
+   - [ ] vm measurement;
+   - [ ] current measurement.
+- [ ] Optimize PCB layout.
+- [ ] Write Library.
+- [ ] Write Firmware.
+- [ ] Submit to Kitspace
+- [ ] Submit to Made-With-KiCAD
 
 # Links
 
 * [Atmel/Microchip ATMega32U4](https://www.microchip.com/wwwproducts/en/ATmega32U4)
 * [TI MCT8316Z](https://www.ti.com/product/MCT8316Z?keyMatch=MCT8316Z&tisearch=search-everything)
 * [Arduino](https://www.arduino.cc/)
+* [KiCAD](https://www.kicad.org/)
