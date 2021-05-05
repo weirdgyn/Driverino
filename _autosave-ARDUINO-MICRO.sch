@@ -1,0 +1,1740 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title "Arduino Micro"
+Date "2021-04-29"
+Rev "01"
+Comp "TuX's Design"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 61491FEA
+P 7800 6575
+AR Path="/61491FEA" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/61491FEA" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 7800 6575 30  0001 C CNN
+F 1 "GND" H 7800 6505 30  0001 C CNN
+F 2 "" H 7800 6575 50  0001 C CNN
+F 3 "" H 7800 6575 50  0001 C CNN
+	1    7800 6575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6375 7800 6575
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 61491FF1
+P 9000 6100
+AR Path="/61491FF1" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/61491FF1" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 9000 6100 30  0001 C CNN
+F 1 "GND" H 9000 6030 30  0001 C CNN
+F 2 "" H 9000 6100 50  0001 C CNN
+F 3 "" H 9000 6100 50  0001 C CNN
+	1    9000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5975 9000 5975
+Wire Wire Line
+	9000 5975 9000 6100
+Wire Wire Line
+	7050 5375 6575 5375
+Wire Wire Line
+	6575 5375 6575 6575
+Wire Wire Line
+	7600 4575 7600 4300
+Wire Wire Line
+	7600 4300 8400 4300
+Wire Wire Line
+	8400 4575 8400 4300
+Connection ~ 8400 4300
+Wire Wire Line
+	8400 4300 9000 4300
+Wire Wire Line
+	8500 4575 8500 4075
+Text Label 5575 5275 0    50   ~ 0
+D+
+Text Label 5575 5175 0    50   ~ 0
+D-
+Wire Wire Line
+	5575 5175 7050 5175
+Wire Wire Line
+	5575 5275 7050 5275
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492012
+P 8000 7700
+AR Path="/61492012" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492012" Ref="C11"  Part="1" 
+F 0 "C11" H 7885 7738 40  0000 R CNN
+F 1 "18pF" H 7885 7662 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 7550 30  0001 C CNN
+F 3 "" H 8000 7700 60  0001 C CNN
+F 4 "" H 8000 7700 50  0001 C CNN "P/N"
+F 5 "" H 8000 7700 50  0001 C CNN "Productor"
+F 6 "GRM1555C1H180JA01D" H 8000 7700 50  0001 C CNN "manf#"
+F 7 "Mouser" H 8000 7700 50  0001 C CNN "Provider"
+F 8 "" H 8000 7700 50  0001 C CNN "Code"
+F 9 "Murata" H 8000 7700 50  0001 C CNN "Manufacturer"
+F 10 "81-GRM1555C1H180JA1D" H 8000 7700 50  0001 C CNN "ProviderCode"
+	1    8000 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 6149201F
+P 7150 7700
+AR Path="/6149201F" Ref="C?"  Part="1" 
+AR Path="/614792E0/6149201F" Ref="C10"  Part="1" 
+F 0 "C10" H 7035 7738 40  0000 R CNN
+F 1 "18pF" H 7035 7662 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7188 7550 30  0001 C CNN
+F 3 "" H 7150 7700 60  0000 C CNN
+F 4 "" H 7150 7700 50  0001 C CNN "P/N"
+F 5 "" H 7150 7700 50  0001 C CNN "Productor"
+F 6 "GRM1555C1H180JA01D" H 7150 7700 50  0001 C CNN "manf#"
+F 7 "Mouser" H 7150 7700 50  0001 C CNN "Provider"
+F 8 "" H 7150 7700 50  0001 C CNN "Code"
+F 9 "Murata" H 7150 7700 50  0001 C CNN "Manufacturer"
+F 10 "81-GRM1555C1H180JA1D" H 7150 7700 50  0001 C CNN "ProviderCode"
+	1    7150 7700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 61492025
+P 7150 8050
+AR Path="/61492025" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/61492025" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 7150 8050 30  0001 C CNN
+F 1 "GND" H 7150 7980 30  0001 C CNN
+F 2 "" H 7150 8050 50  0001 C CNN
+F 3 "" H 7150 8050 50  0001 C CNN
+	1    7150 8050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 7900 8000 7950
+Wire Wire Line
+	8000 7950 7150 7950
+Wire Wire Line
+	7150 7950 7150 8050
+Wire Wire Line
+	7150 7950 7150 7900
+Connection ~ 7150 7950
+Wire Wire Line
+	7150 7500 7150 7450
+Wire Wire Line
+	7875 7450 8000 7450
+Wire Wire Line
+	8000 7450 8000 7500
+Wire Wire Line
+	7150 7450 7150 7250
+Wire Wire Line
+	7150 7250 7900 7250
+Wire Wire Line
+	7900 7250 7900 6375
+Connection ~ 7150 7450
+Wire Wire Line
+	8000 6375 8000 7450
+Connection ~ 8000 7450
+Wire Wire Line
+	7150 7450 7275 7450
+$Comp
+L Driverino-rescue:CRYSTAL-device Y?
+U 1 1 61492041
+P 7575 7450
+AR Path="/61492041" Ref="Y?"  Part="1" 
+AR Path="/614792E0/61492041" Ref="Y1"  Part="1" 
+F 0 "Y1" H 7575 7279 40  0000 C CNN
+F 1 "16MHz" H 7575 7203 40  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 7575 7450 60  0001 C CNN
+F 3 "" H 7575 7450 60  0000 C CNN
+F 4 "" H 7575 7450 50  0001 C CNN "P/N"
+F 5 "" H 7575 7450 50  0001 C CNN "Productor"
+F 6 "XRCHA16M000F0A01R0" H 7575 7450 50  0001 C CNN "manf#"
+F 7 "Mouser" H 7575 7450 50  0001 C CNN "Provider"
+F 8 "" H 7575 7450 50  0001 C CNN "Code"
+F 9 "Murata" H 7575 7450 50  0001 C CNN "Manufacturer"
+F 10 "81-XRCHA16M000F0A1R0" H 7575 7450 50  0001 C CNN "ProviderCode"
+	1    7575 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 6149204C
+P 6575 4725
+AR Path="/6149204C" Ref="C?"  Part="1" 
+AR Path="/614792E0/6149204C" Ref="C8"  Part="1" 
+F 0 "C8" H 6460 4687 40  0000 R CNN
+F 1 "100nF" H 6460 4763 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6613 4575 30  0001 C CNN
+F 3 "" H 6575 4725 60  0000 C CNN
+F 4 "" H 6575 4725 50  0001 C CNN "P/N"
+F 5 "" H 6575 4725 50  0001 C CNN "Productor"
+F 6 "GCM155R71H104KE02J" H 6575 4725 50  0001 C CNN "manf#"
+F 7 "Mouser" H 6575 4725 50  0001 C CNN "Provider"
+F 8 "" H 6575 4725 50  0001 C CNN "Code"
+F 9 "Murata" H 6575 4725 50  0001 C CNN "Manufacturer"
+F 10 "81-GCM155R71H104KE2J" H 6575 4725 50  0001 C CNN "ProviderCode"
+	1    6575 4725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6575 4925 6575 5375
+Connection ~ 6575 5375
+Wire Wire Line
+	7700 6375 7700 6550
+Wire Wire Line
+	8500 6375 8500 6600
+Wire Wire Line
+	7800 4575 7800 3825
+Wire Wire Line
+	7900 4575 7900 3825
+Wire Wire Line
+	8000 4575 8000 3825
+Wire Wire Line
+	8100 4575 8100 3825
+Wire Wire Line
+	8200 4575 8200 3825
+Wire Wire Line
+	8300 4575 8300 3825
+Wire Wire Line
+	8950 5775 9175 5775
+Wire Wire Line
+	8950 5675 9175 5675
+Wire Wire Line
+	8950 5575 9175 5575
+Wire Wire Line
+	8950 5475 9175 5475
+Wire Wire Line
+	8950 5375 9175 5375
+Wire Wire Line
+	8950 5275 9175 5275
+Text Label 7800 3825 3    50   ~ 0
+A5
+Text Label 7900 3825 3    50   ~ 0
+A4
+Text Label 8000 3825 3    50   ~ 0
+A3
+Text Label 8100 3825 3    50   ~ 0
+A2
+Text Label 8200 3825 3    50   ~ 0
+A1
+Text Label 8300 3825 3    50   ~ 0
+A0
+Connection ~ 9000 5975
+Text Label 9175 5075 2    50   ~ 0
+D13
+Text Label 9175 5175 2    50   ~ 0
+D5
+Text Label 9175 5275 2    50   ~ 0
+D10
+Text Label 9175 5375 2    50   ~ 0
+D9
+Text Label 9175 5475 2    50   ~ 0
+D8
+Text Label 9175 5575 2    50   ~ 0
+D6
+Text Label 9175 5675 2    50   ~ 0
+D12
+Text Label 9175 5775 2    50   ~ 0
+D4
+Wire Wire Line
+	8400 6375 8400 6600
+Wire Wire Line
+	8300 6375 8300 6600
+Wire Wire Line
+	8200 6375 8200 6600
+Wire Wire Line
+	8100 6375 8100 6600
+Text Label 8400 6600 1    50   ~ 0
+TXO
+Text Label 8300 6600 1    50   ~ 0
+RXI
+Text Label 8200 6600 1    50   ~ 0
+SDA
+Text Label 8100 6600 1    50   ~ 0
+SCL
+Text Label 7500 6600 1    50   ~ 0
+D11
+Wire Wire Line
+	6875 5875 7050 5875
+Wire Wire Line
+	6875 5775 7050 5775
+Wire Wire Line
+	6875 5975 7050 5975
+Text Label 6875 4975 0    50   ~ 0
+D7
+Wire Wire Line
+	6875 4975 7050 4975
+Wire Wire Line
+	8950 5875 9400 5875
+Wire Wire Line
+	9400 5875 9400 5725
+Wire Wire Line
+	7500 6375 7500 6600
+Wire Wire Line
+	15350 4450 15350 4200
+Wire Wire Line
+	15025 4450 15350 4450
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 614920C4
+P 15350 4800
+AR Path="/614920C4" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/614920C4" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 15350 4800 30  0001 C CNN
+F 1 "GND" H 15350 4730 30  0001 C CNN
+F 2 "" H 15350 4800 50  0001 C CNN
+F 3 "" H 15350 4800 50  0001 C CNN
+	1    15350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 4650 15350 4800
+Wire Wire Line
+	15025 4650 15350 4650
+Wire Wire Line
+	14225 4450 14050 4450
+Wire Wire Line
+	14225 4550 14050 4550
+Wire Wire Line
+	15025 4550 15200 4550
+Wire Wire Line
+	14225 5675 13900 5675
+Wire Wire Line
+	13900 5675 13900 5950
+Wire Wire Line
+	14225 5475 13875 5475
+Wire Wire Line
+	12675 5275 12550 5275
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 614920E8
+P 13625 5475
+AR Path="/614920E8" Ref="R?"  Part="1" 
+AR Path="/614792E0/614920E8" Ref="R13"  Part="1" 
+F 0 "R13" V 13516 5475 40  0000 C CNN
+F 1 "22R" V 13440 5475 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13555 5475 30  0001 C CNN
+F 3 "" H 13625 5475 30  0000 C CNN
+F 4 "Mouser" H 13625 5475 50  0001 C CNN "Provider"
+F 5 "" H 13625 5475 50  0001 C CNN "Code"
+F 6 "" H 13625 5475 50  0001 C CNN "P/N"
+F 7 "" H 13625 5475 50  0001 C CNN "Productor"
+F 8 "RC0402FR-0722RL" H 13625 5475 50  0001 C CNN "manf#"
+F 9 "Yageo" H 13625 5475 50  0001 C CNN "Manufacturer"
+F 10 "603-RC0402FR-0722RL" H 13625 5475 50  0001 C CNN "ProviderCode"
+	1    13625 5475
+	0    1    -1   0   
+$EndComp
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 614920EE
+P 13900 5950
+AR Path="/614920EE" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/614920EE" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 13900 5950 30  0001 C CNN
+F 1 "GND" H 13900 5880 30  0001 C CNN
+F 2 "" H 13900 5950 50  0001 C CNN
+F 3 "" H 13900 5950 50  0001 C CNN
+	1    13900 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13375 5475 13250 5475
+Text Label 13250 5475 0    50   ~ 0
+D+
+Text Label 13250 5375 0    50   ~ 0
+D-
+Wire Wire Line
+	14275 6450 13900 6450
+Wire Wire Line
+	14275 6350 13900 6350
+Text Label 13900 6450 0    50   ~ 0
+TX_232
+Text Label 13900 6350 0    50   ~ 0
+RX_232
+Wire Wire Line
+	13900 6550 13900 6750
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 614920FC
+P 13900 6750
+AR Path="/614920FC" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/614920FC" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 13900 6750 30  0001 C CNN
+F 1 "GND" H 13900 6680 30  0001 C CNN
+F 2 "" H 13900 6750 50  0001 C CNN
+F 3 "" H 13900 6750 50  0001 C CNN
+	1    13900 6750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 6550 13900 6550
+$Comp
+L Driverino-rescue:CONN_3-conn P?
+U 1 1 61492109
+P 14625 6450
+AR Path="/61492109" Ref="P?"  Part="1" 
+AR Path="/614792E0/61492109" Ref="P4"  Part="1" 
+F 0 "P4" H 14492 6137 40  0000 C CNN
+F 1 "RS232" H 14492 6213 40  0000 C CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical" H 14625 6450 50  0001 C CNN
+F 3 "" H 14625 6450 50  0001 C CNN
+F 4 "" H 14625 6450 50  0001 C CNN "Productor"
+F 5 "" H 14625 6450 50  0001 C CNN "P/N"
+F 6 "" H 14625 6450 50  0001 C CNN "Code"
+F 7 "53047-0310" H 14625 6450 50  0001 C CNN "manf#"
+F 8 "Mouser" H 14625 6450 50  0001 C CNN "Provider"
+F 9 "Molex" H 14625 6450 50  0001 C CNN "Manufacturer"
+F 10 "538-53047-0310" H 14625 6450 50  0001 C CNN "ProviderCode"
+	1    14625 6450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13375 5375 13250 5375
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 61492116
+P 13625 5375
+AR Path="/61492116" Ref="R?"  Part="1" 
+AR Path="/614792E0/61492116" Ref="R12"  Part="1" 
+F 0 "R12" V 13850 5375 40  0000 C CNN
+F 1 "22R" V 13750 5375 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13555 5375 30  0001 C CNN
+F 3 "" H 13625 5375 30  0000 C CNN
+F 4 "Mouser" H 13625 5375 50  0001 C CNN "Provider"
+F 5 "" H 13625 5375 50  0001 C CNN "Code"
+F 6 "" H 13625 5375 50  0001 C CNN "P/N"
+F 7 "" H 13625 5375 50  0001 C CNN "Productor"
+F 8 "RC0402FR-0722RL" H 13625 5375 50  0001 C CNN "manf#"
+F 9 "Yageo" H 13625 5375 50  0001 C CNN "Manufacturer"
+F 10 "603-RC0402FR-0722RL" H 13625 5375 50  0001 C CNN "ProviderCode"
+	1    13625 5375
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	14225 5375 13875 5375
+Text Label 7600 6600 1    50   ~ 0
+RESET
+Wire Wire Line
+	14225 4650 14050 4650
+Wire Wire Line
+	5150 9275 5350 9275
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 61492123
+P 6150 10050
+AR Path="/61492123" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/61492123" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 6150 10050 30  0001 C CNN
+F 1 "GND" H 6150 9980 30  0001 C CNN
+F 2 "" H 6150 10050 50  0001 C CNN
+F 3 "" H 6150 10050 50  0001 C CNN
+	1    6150 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 6149212A
+P 5600 9275
+AR Path="/6149212A" Ref="R?"  Part="1" 
+AR Path="/614792E0/6149212A" Ref="R4"  Part="1" 
+F 0 "R4" V 5415 9275 40  0000 C CNN
+F 1 "0R DNM" V 5491 9275 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5530 9275 30  0001 C CNN
+F 3 "" H 5600 9275 30  0000 C CNN
+F 4 "Mouser" H 5600 9275 50  0001 C CNN "Provider"
+F 5 "Vishay" H 5600 9275 50  0001 C CNN "Manufacturer"
+F 6 "71-RCC04020000Z0ED" H 5600 9275 50  0001 C CNN "ProviderCode"
+F 7 "RCC04020000Z0ED" H 5600 9275 50  0001 C CNN "manf#"
+	1    5600 9275
+	0    1    1    0   
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492132
+P 6150 9600
+AR Path="/61492132" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492132" Ref="C6"  Part="1" 
+F 0 "C6" H 6035 9562 40  0000 R CNN
+F 1 "100nF" H 6035 9638 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6188 9450 30  0001 C CNN
+F 3 "" H 6150 9600 60  0001 C CNN
+F 4 "" H 6150 9600 50  0001 C CNN "Productor"
+F 5 "" H 6150 9600 50  0001 C CNN "Code"
+F 6 "GCM155R71H104KE02J" H 6150 9600 50  0001 C CNN "manf#"
+F 7 "Murata" H 6150 9600 50  0001 C CNN "Manufacturer"
+F 8 "Mouser" H 6150 9600 50  0001 C CNN "Provider"
+F 9 "81-GCM155R71H104KE2J" H 6150 9600 50  0001 C CNN "ProviderCode"
+	1    6150 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 9400 6150 9275
+Connection ~ 6150 9275
+Wire Wire Line
+	6150 9275 6500 9275
+Wire Wire Line
+	6150 9800 6150 10050
+Wire Wire Line
+	5850 9275 6150 9275
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492142
+P 9075 2675
+AR Path="/61492142" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492142" Ref="C13"  Part="1" 
+F 0 "C13" V 9228 2675 40  0000 C CNN
+F 1 "100nF" V 9304 2675 40  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9113 2525 30  0001 C CNN
+F 3 "" H 9075 2675 60  0000 C CNN
+F 4 "GCM155R71H104KE02J" H 9075 2675 50  0001 C CNN "manf#"
+F 5 "Mouser" H 9075 2675 50  0001 C CNN "Provider"
+F 6 "Murata" H 9075 2675 50  0001 C CNN "Manufacturer"
+F 7 "81-GCM155R71H104KE2J" H 9075 2675 50  0001 C CNN "ProviderCode"
+	1    9075 2675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8775 2575 9375 2575
+Wire Wire Line
+	9375 2675 9275 2675
+Wire Wire Line
+	8875 2675 8775 2675
+Wire Wire Line
+	9375 2575 9375 2675
+Wire Wire Line
+	8775 2475 9375 2475
+Wire Wire Line
+	9375 2475 9375 2375
+Wire Wire Line
+	9375 2375 9275 2375
+Wire Wire Line
+	8875 2375 8775 2375
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492155
+P 9075 2375
+AR Path="/61492155" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492155" Ref="C12"  Part="1" 
+F 0 "C12" V 9304 2375 40  0000 C CNN
+F 1 "100nF" V 9228 2375 40  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9113 2225 30  0001 C CNN
+F 3 "" H 9075 2375 60  0000 C CNN
+F 4 "GCM155R71H104KE02J" H 9075 2375 50  0001 C CNN "manf#"
+F 5 "Mouser" H 9075 2375 50  0001 C CNN "Provider"
+F 6 "Murata" H 9075 2375 50  0001 C CNN "Manufacturer"
+F 7 "81-GCM155R71H104KE2J" H 9075 2375 50  0001 C CNN "ProviderCode"
+	1    9075 2375
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7275 2675 6925 2675
+Wire Wire Line
+	7275 2275 6925 2275
+Text Label 6925 2575 0    50   ~ 0
+RXI
+Text Label 6925 2375 0    50   ~ 0
+TXO
+Wire Wire Line
+	7275 2375 6925 2375
+Wire Wire Line
+	7275 2575 6925 2575
+$Comp
+L Driverino-rescue:ADM3101EACPZ-250R7-ad U?
+U 1 1 61492162
+P 8025 2225
+AR Path="/61492162" Ref="U?"  Part="1" 
+AR Path="/614792E0/61492162" Ref="U2"  Part="1" 
+F 0 "U2" H 8025 2917 40  0000 C CNN
+F 1 "ADM3101E" H 8025 2841 40  0000 C CNN
+F 2 "Driverino:CP-12-4" H 8025 2825 60  0001 C CNN
+F 3 "" H 7275 2675 60  0001 C CNN
+F 4 "Analog" H 8025 2225 50  0001 C CNN "Manufacturer"
+F 5 "ADM3101EACPZ-250R7" H 8025 2225 50  0001 C CNN "manf#"
+F 6 "Mouser" H 8025 2225 50  0001 C CNN "Provider"
+F 7 "584-AM3101EACPZ250R7" H 8025 2225 50  0001 C CNN "ProviderCode"
+	1    8025 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 6149216D
+P 6475 2075
+AR Path="/6149216D" Ref="C?"  Part="1" 
+AR Path="/614792E0/6149216D" Ref="C7"  Part="1" 
+F 0 "C7" V 6322 2075 40  0000 C CNN
+F 1 "100nF" V 6246 2075 40  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6513 1925 30  0001 C CNN
+F 3 "" H 6475 2075 60  0000 C CNN
+F 4 "GCM155R71H104KE02J" H 6475 2075 50  0001 C CNN "manf#"
+F 5 "Mouser" H 6475 2075 50  0001 C CNN "Provider"
+F 6 "Murata" H 6475 2075 50  0001 C CNN "Manufacturer"
+F 7 "81-GCM155R71H104KE2J" H 6475 2075 50  0001 C CNN "ProviderCode"
+	1    6475 2075
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7275 2075 6675 2075
+Wire Wire Line
+	6275 2075 6225 2075
+Wire Wire Line
+	6225 2075 6225 2375
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492181
+P 6900 1975
+AR Path="/61492181" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492181" Ref="C9"  Part="1" 
+F 0 "C9" V 7225 1975 40  0000 C CNN
+F 1 "100nF" V 7125 1975 40  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6938 1825 30  0001 C CNN
+F 3 "" H 6900 1975 60  0001 C CNN
+F 4 "GCM155R71H104KE02J" H 6900 1975 50  0001 C CNN "manf#"
+F 5 "Mouser" H 6900 1975 50  0001 C CNN "Provider"
+F 6 "Murata" H 6900 1975 50  0001 C CNN "Manufacturer"
+F 7 "81-GCM155R71H104KE2J" H 6900 1975 50  0001 C CNN "ProviderCode"
+	1    6900 1975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7275 1975 7100 1975
+Wire Wire Line
+	6700 1975 6575 1975
+Wire Wire Line
+	6575 1975 6575 1775
+Wire Wire Line
+	7275 1775 6575 1775
+Connection ~ 6575 1775
+Wire Wire Line
+	6575 1775 6575 1275
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492192
+P 6000 2075
+AR Path="/61492192" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492192" Ref="C5"  Part="1" 
+F 0 "C5" H 5886 2113 40  0000 R CNN
+F 1 "100nF" H 5886 2037 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6038 1925 30  0001 C CNN
+F 3 "" H 6000 2075 60  0001 C CNN
+F 4 "GCM155R71H104KE02J" H 6000 2075 50  0001 C CNN "manf#"
+F 5 "Mouser" H 6000 2075 50  0001 C CNN "Provider"
+F 6 "Murata" H 6000 2075 50  0001 C CNN "Manufacturer"
+F 7 "81-GCM155R71H104KE2J" H 6000 2075 50  0001 C CNN "ProviderCode"
+	1    6000 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 1775 6000 1775
+Wire Wire Line
+	6000 1775 6000 1875
+Wire Wire Line
+	6000 2275 6000 2375
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 6149219B
+P 6000 2475
+AR Path="/6149219B" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/6149219B" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 6000 2475 30  0001 C CNN
+F 1 "GND" H 6000 2405 30  0001 C CNN
+F 2 "" H 6000 2475 50  0001 C CNN
+F 3 "" H 6000 2475 50  0001 C CNN
+	1    6000 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 614921A1
+P 9575 2200
+AR Path="/614921A1" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/614921A1" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 9575 2200 30  0001 C CNN
+F 1 "GND" H 9575 2130 30  0001 C CNN
+F 2 "" H 9575 2200 50  0001 C CNN
+F 3 "" H 9575 2200 50  0001 C CNN
+	1    9575 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8775 2075 9575 2075
+Wire Wire Line
+	9575 2075 9575 2200
+Wire Wire Line
+	8775 1775 9575 1775
+Wire Wire Line
+	9575 1775 9575 2075
+Connection ~ 9575 2075
+Text Label 6925 2275 0    50   ~ 0
+RX_232
+Text Label 6925 2675 0    50   ~ 0
+TX_232
+$Comp
+L Driverino-rescue:CONN_3X2-conn P?
+U 1 1 614921D2
+P 14625 4600
+AR Path="/614921D2" Ref="P?"  Part="1" 
+AR Path="/614792E0/614921D2" Ref="P2"  Part="1" 
+F 0 "P2" H 14625 4942 40  0000 C CNN
+F 1 "ICSP" H 14625 4866 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 14625 4600 50  0001 C CNN
+F 3 "" H 14625 4600 50  0001 C CNN
+F 4 "Molex" H 14625 4600 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 14625 4600 50  0001 C CNN "Provider"
+F 6 "538-87914-0616" H 14625 4600 50  0001 C CNN "ProviderCode"
+F 7 "87914-0616" H 14625 4600 50  0001 C CNN "manf#"
+	1    14625 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:CONN_5-conn P?
+U 1 1 614921D8
+P 14625 5475
+AR Path="/614921D8" Ref="P?"  Part="1" 
+AR Path="/614792E0/614921D8" Ref="P3"  Part="1" 
+F 0 "P3" H 14753 5524 40  0000 L CNN
+F 1 "USB-MICRO" H 14753 5448 40  0000 L CNN
+F 2 "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" H 14625 5475 50  0001 C CNN
+F 3 "" H 14625 5475 50  0001 C CNN
+F 4 "Amphenol" H 14625 5475 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 14625 5475 50  0001 C CNN "Provider"
+F 6 "649-10103594-0001LF" H 14625 5475 50  0001 C CNN "ProviderCode"
+F 7 "10103594-0001LF" H 14625 5475 50  0001 C CNN "manf#"
+	1    14625 5475
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14225 5575
+$Comp
+L Driverino-rescue:VBUS-power #PWR?
+U 1 1 614921DF
+P 12550 5000
+AR Path="/614921DF" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/614921DF" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 12550 5150 50  0001 C CNN
+F 1 "VBUS" H 12550 5175 40  0000 C CNN
+F 2 "" H 12550 5100 50  0001 C CNN
+F 3 "" H 12550 5100 50  0001 C CNN
+	1    12550 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 5000 12550 5275
+$Comp
+L Driverino-rescue:FUSE-device F?
+U 1 1 614921EC
+P 12925 5275
+AR Path="/614921EC" Ref="F?"  Part="1" 
+AR Path="/614792E0/614921EC" Ref="F1"  Part="1" 
+F 0 "F1" H 12925 5492 40  0000 C CNN
+F 1 "0.2A " H 12925 5416 40  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 12925 5275 60  0001 C CNN
+F 3 "" H 12925 5275 60  0001 C CNN
+F 4 "Bourns" H 12925 5275 50  0001 C CNN "Manufacturer"
+F 5 "652-MF-NSMF020X-2" H 12925 5275 50  0001 C CNN "ProviderCode"
+F 6 "Mouser" H 12925 5275 50  0001 C CNN "Provider"
+F 7 "MF-NSMF020X-2" H 12925 5275 50  0001 C CNN "manf#"
+F 8 "" H 12925 5275 50  0001 C CNN "Productor"
+	1    12925 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13175 5275 14225 5275
+Wire Wire Line
+	5600 5475 5600 5925
+Wire Wire Line
+	7050 5475 5600 5475
+Wire Wire Line
+	5600 6325 5600 6575
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 614921FB
+P 5600 6125
+AR Path="/614921FB" Ref="C?"  Part="1" 
+AR Path="/614792E0/614921FB" Ref="C4"  Part="1" 
+F 0 "C4" H 5485 6087 40  0000 R CNN
+F 1 "1uF" H 5485 6163 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5638 5975 30  0001 C CNN
+F 3 "" H 5600 6125 60  0000 C CNN
+F 4 "" H 5600 6125 50  0001 C CNN "P/N"
+F 5 "" H 5600 6125 50  0001 C CNN "Productor"
+F 6 "0603DC105MAT2A" H 5600 6125 50  0001 C CNN "manf#"
+F 7 "Mouser" H 5600 6125 50  0001 C CNN "Provider"
+F 8 "" H 5600 6125 50  0001 C CNN "Code"
+F 9 "AVX" H 5600 6125 50  0001 C CNN "Manufacturer"
+F 10 "581-0603DC105MAT2A" H 5600 6125 50  0001 C CNN "ProviderCode"
+	1    5600 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 5075 6225 5075
+Wire Wire Line
+	6225 5075 6225 4775
+$Comp
+L Driverino-rescue:INDUCTOR_SMALL-device L?
+U 1 1 6149220D
+P 7500 3975
+AR Path="/6149220D" Ref="L?"  Part="1" 
+AR Path="/614792E0/6149220D" Ref="L1"  Part="1" 
+F 0 "L1" V 7462 3931 40  0000 R CNN
+F 1 "MH2029-300Y" V 7538 3931 40  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7500 3975 60  0001 C CNN
+F 3 "" H 7500 3975 60  0001 C CNN
+F 4 "Bourns" H 7500 3975 50  0001 C CNN "Manufacturer"
+F 5 "652-MH2029-300Y" H 7500 3975 50  0001 C CNN "ProviderCode"
+F 6 "Mouser" H 7500 3975 50  0001 C CNN "Provider"
+F 7 "MH2029-300Y" H 7500 3975 50  0001 C CNN "manf#"
+	1    7500 3975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 3675 7500 3725
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492219
+P 5325 6125
+AR Path="/61492219" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492219" Ref="C3"  Part="1" 
+F 0 "C3" H 5440 6087 40  0000 L CNN
+F 1 "1uF" H 5440 6163 40  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5363 5975 30  0001 C CNN
+F 3 "" H 5325 6125 60  0000 C CNN
+F 4 "" H 5325 6125 50  0001 C CNN "P/N"
+F 5 "" H 5325 6125 50  0001 C CNN "Productor"
+F 6 "0603DC105MAT2A" H 5325 6125 50  0001 C CNN "manf#"
+F 7 "Mouser" H 5325 6125 50  0001 C CNN "Provider"
+F 8 "" H 5325 6125 50  0001 C CNN "Code"
+F 9 "AVX" H 5325 6125 50  0001 C CNN "Manufacturer"
+F 10 "581-0603DC105MAT2A" H 5325 6125 50  0001 C CNN "ProviderCode"
+	1    5325 6125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 4575 7700 4400
+Wire Wire Line
+	6575 4400 7700 4400
+Wire Wire Line
+	6575 4525 6575 4400
+Wire Wire Line
+	7500 4225 7500 4300
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 6149222A
+P 5325 6700
+AR Path="/6149222A" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/6149222A" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 5325 6700 30  0001 C CNN
+F 1 "GND" H 5325 6630 30  0001 C CNN
+F 2 "" H 5325 6700 50  0001 C CNN
+F 3 "" H 5325 6700 50  0001 C CNN
+	1    5325 6700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 4300
+Wire Wire Line
+	7500 4300 7500 4575
+Wire Wire Line
+	5325 4300 5325 5925
+Wire Wire Line
+	7050 5575 5875 5575
+Wire Wire Line
+	5875 5575 5875 4775
+$Comp
+L Driverino-rescue:VBUS-power #PWR?
+U 1 1 61492261
+P 5875 4775
+AR Path="/61492261" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/61492261" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 5875 4925 50  0001 C CNN
+F 1 "VBUS" H 5871 4911 40  0000 C CNN
+F 2 "" H 5875 4875 50  0001 C CNN
+F 3 "" H 5875 4875 50  0001 C CNN
+	1    5875 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5175 9175 5175
+Wire Wire Line
+	7600 6375 7600 6600
+Wire Wire Line
+	9000 4300 9000 5975
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61492298
+P 12550 5575
+AR Path="/61492298" Ref="C?"  Part="1" 
+AR Path="/614792E0/61492298" Ref="C16"  Part="1" 
+F 0 "C16" H 12435 5537 40  0000 R CNN
+F 1 "100nF" H 12435 5613 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12588 5425 30  0001 C CNN
+F 3 "" H 12550 5575 60  0001 C CNN
+F 4 "" H 12550 5575 50  0001 C CNN "Productor"
+F 5 "" H 12550 5575 50  0001 C CNN "Code"
+F 6 "GCM155R71H104KE02J" H 12550 5575 50  0001 C CNN "manf#"
+F 7 "Murata" H 12550 5575 50  0001 C CNN "Manufacturer"
+F 8 "Mouser" H 12550 5575 50  0001 C CNN "Provider"
+F 9 "81-GCM155R71H104KE2J" H 12550 5575 50  0001 C CNN "ProviderCode"
+	1    12550 5575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12250 5275 12250 5375
+Connection ~ 12550 5275
+Wire Wire Line
+	12250 5775 12250 5875
+Wire Wire Line
+	12550 5775 12550 5875
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 614922B2
+P 12250 5950
+AR Path="/614922B2" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/614922B2" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 12250 5950 30  0001 C CNN
+F 1 "GND" H 12250 5880 30  0001 C CNN
+F 2 "" H 12250 5950 50  0001 C CNN
+F 3 "" H 12250 5950 50  0001 C CNN
+	1    12250 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 5375 12550 5275
+Text Label 14050 4650 0    50   ~ 0
+RESET
+Text HLabel 14050 4450 0    50   Output ~ 0
+MISO
+Text HLabel 14050 4550 0    50   BiDi ~ 0
+SCK
+Text HLabel 15200 4550 2    50   Input ~ 0
+MOSI
+$Comp
+L Driverino-rescue:SW_PUSH-device SW?
+U 1 1 615055F8
+P 1550 5275
+AR Path="/615055F8" Ref="SW?"  Part="1" 
+AR Path="/614792E0/615055F8" Ref="SW1"  Part="1" 
+F 0 "SW1" H 1550 5525 40  0000 C CNN
+F 1 "SW_PUSH" H 1550 5475 40  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 1550 5275 60  0001 C CNN
+F 3 "" H 1550 5275 60  0001 C CNN
+F 4 "B3U-1000P" H 1550 5275 50  0001 C CNN "manf#"
+F 5 "Omron" H 1550 5275 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 1550 5275 50  0001 C CNN "Provider"
+F 7 "653-B3U-1000P" H 1550 5275 50  0001 C CNN "ProviderCode"
+	1    1550 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 5275 1025 5450
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 615055FF
+P 1025 5450
+AR Path="/615055FF" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/615055FF" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1025 5450 30  0001 C CNN
+F 1 "GND" H 1025 5380 30  0001 C CNN
+F 2 "" H 1025 5450 50  0001 C CNN
+F 3 "" H 1025 5450 50  0001 C CNN
+	1    1025 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 5275 1250 5275
+$Comp
+L Driverino-rescue:DIODE-device D?
+U 1 1 61505606
+P 2025 4925
+AR Path="/61505606" Ref="D?"  Part="1" 
+AR Path="/614792E0/61505606" Ref="D1"  Part="1" 
+F 0 "D1" V 2075 4800 40  0000 R CNN
+F 1 "DIODE" V 2025 4800 40  0000 R CNN
+F 2 "Diode_SMD:D_0402_1005Metric" H 2025 4925 60  0001 C CNN
+F 3 "" H 2025 4925 60  0000 C CNN
+F 4 "Comchip" H 2025 4925 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 2025 4925 50  0001 C CNN "Provider"
+F 6 "750-CDBQR70" H 2025 4925 50  0001 C CNN "ProviderCode"
+F 7 "CDBQR70-HF" H 2025 4925 50  0001 C CNN "manf#"
+	1    2025 4925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 61505612
+P 2475 4925
+AR Path="/61505612" Ref="R?"  Part="1" 
+AR Path="/614792E0/61505612" Ref="R1"  Part="1" 
+F 0 "R1" H 2400 4975 40  0000 R CNN
+F 1 "10k" H 2400 4925 40  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2405 4925 30  0001 C CNN
+F 3 "" H 2475 4925 30  0000 C CNN
+F 4 "CRCW040210K0FKEDC" H 2475 4925 50  0001 C CNN "manf#"
+F 5 "Mouser" H 2475 4925 50  0001 C CNN "Provider"
+F 6 "Vishay" H 2475 4925 50  0001 C CNN "Manufacturer"
+F 7 "71-CRCW040210K0FKEDC" H 2475 4925 50  0001 C CNN "ProviderCode"
+	1    2475 4925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 6150561D
+P 2900 4925
+AR Path="/6150561D" Ref="C?"  Part="1" 
+AR Path="/614792E0/6150561D" Ref="C1"  Part="1" 
+F 0 "C1" H 2750 4875 40  0000 R CNN
+F 1 "100nF" H 2750 4925 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 4775 30  0001 C CNN
+F 3 "" H 2900 4925 60  0000 C CNN
+F 4 "" H 2900 4925 50  0001 C CNN "P/N"
+F 5 "" H 2900 4925 50  0001 C CNN "Productor"
+F 6 "" H 2900 4925 50  0001 C CNN "Code"
+F 7 "GCM155R71H104KE02J" H 2900 4925 50  0001 C CNN "manf#"
+F 8 "Murata" H 2900 4925 50  0001 C CNN "Manufacturer"
+F 9 "Mouser" H 2900 4925 50  0001 C CNN "Provider"
+F 10 "81-GCM155R71H104KE2J" H 2900 4925 50  0001 C CNN "ProviderCode"
+	1    2900 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 61505628
+P 3375 4925
+AR Path="/61505628" Ref="C?"  Part="1" 
+AR Path="/614792E0/61505628" Ref="C2"  Part="1" 
+F 0 "C2" H 3225 4875 40  0000 R CNN
+F 1 "100nF" H 3225 4925 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3413 4775 30  0001 C CNN
+F 3 "" H 3375 4925 60  0000 C CNN
+F 4 "" H 3375 4925 50  0001 C CNN "P/N"
+F 5 "" H 3375 4925 50  0001 C CNN "Productor"
+F 6 "GCM155R71H104KE02J" H 3375 4925 50  0001 C CNN "manf#"
+F 7 "Mouser" H 3375 4925 50  0001 C CNN "Provider"
+F 8 "" H 3375 4925 50  0001 C CNN "Code"
+F 9 "Murata" H 3375 4925 50  0001 C CNN "Manufacturer"
+F 10 "81-GCM155R71H104KE2J" H 3375 4925 50  0001 C CNN "ProviderCode"
+	1    3375 4925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1850 5275 2025 5275
+Wire Wire Line
+	2025 5275 2025 5125
+Wire Wire Line
+	2025 4725 2025 4575
+Wire Wire Line
+	2025 4575 2475 4575
+Wire Wire Line
+	2475 4575 2475 4675
+Wire Wire Line
+	2025 5275 2475 5275
+Wire Wire Line
+	2475 5275 2475 5175
+Connection ~ 2025 5275
+Wire Wire Line
+	2475 4425 2475 4575
+Connection ~ 2475 4575
+Wire Wire Line
+	2475 4575 2900 4575
+Wire Wire Line
+	2900 4575 2900 4725
+Wire Wire Line
+	2900 4575 3375 4575
+Wire Wire Line
+	3375 4575 3375 4725
+Connection ~ 2900 4575
+Wire Wire Line
+	2900 5125 2900 5275
+Wire Wire Line
+	3375 5125 3375 5275
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 6150564B
+P 3375 5375
+AR Path="/6150564B" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/6150564B" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 3375 5375 30  0001 C CNN
+F 1 "GND" H 3375 5305 30  0001 C CNN
+F 2 "" H 3375 5375 50  0001 C CNN
+F 3 "" H 3375 5375 50  0001 C CNN
+	1    3375 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 5275 2475 5550
+Connection ~ 2475 5275
+Text Label 2475 5550 1    50   ~ 0
+RESET
+Text HLabel 5150 9275 0    50   Output ~ 0
+ILIM
+Text HLabel 6875 5775 0    50   BiDi ~ 0
+SCK
+Text HLabel 6875 5875 0    50   Output ~ 0
+MOSI
+Text HLabel 6875 5975 0    50   Input ~ 0
+MISO
+Text Label 5875 5675 0    50   ~ 0
+CS1
+Wire Wire Line
+	5325 4300 7500 4300
+Text Label 13250 7650 2    50   ~ 0
+D10
+Text Label 13250 7950 2    50   ~ 0
+D9
+Text Label 13250 8250 2    50   ~ 0
+D8
+Text Label 13250 8525 2    50   ~ 0
+D6
+Text HLabel 13375 8525 2    50   Input ~ 0
+FGOUT
+Text HLabel 13375 7650 2    50   Output ~ 0
+CS2
+Wire Wire Line
+	13250 7950 13375 7950
+Text HLabel 12150 7950 2    50   Output ~ 0
+DRVOFF
+Wire Wire Line
+	13250 8250 13375 8250
+Text HLabel 13375 8250 2    50   Output ~ 0
+PWM
+Wire Wire Line
+	13250 8525 13375 8525
+Text HLabel 13375 7950 2    50   Output ~ 0
+BRAKE
+Text HLabel 12150 7650 2    50   Input ~ 0
+FAULT
+Wire Wire Line
+	8950 5075 9175 5075
+Wire Wire Line
+	8950 4975 9325 4975
+Wire Wire Line
+	9825 4975 9950 4975
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 6149228F
+P 9950 4975
+AR Path="/6149228F" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/6149228F" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 9950 4975 30  0001 C CNN
+F 1 "GND" H 9950 4905 30  0001 C CNN
+F 2 "" H 9950 4975 50  0001 C CNN
+F 3 "" H 9950 4975 50  0001 C CNN
+	1    9950 4975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 61492289
+P 9575 4975
+AR Path="/61492289" Ref="R?"  Part="1" 
+AR Path="/614792E0/61492289" Ref="R7"  Part="1" 
+F 0 "R7" V 9760 4975 40  0000 C CNN
+F 1 "10k" V 9684 4975 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9505 4975 30  0001 C CNN
+F 3 "" H 9575 4975 30  0000 C CNN
+F 4 "" H 9575 4975 50  0001 C CNN "Productor"
+F 5 "" H 9575 4975 50  0001 C CNN "Code"
+F 6 "Vishay" H 9575 4975 50  0001 C CNN "Manufacturer"
+F 7 "Mouser" H 9575 4975 50  0001 C CNN "Provider"
+F 8 "71-CRCW040210K0FKEDC" H 9575 4975 50  0001 C CNN "ProviderCode"
+F 9 "CRCW040210K0FKEDC" H 9575 4975 50  0001 C CNN "manf#"
+	1    9575 4975
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2900 5275 3375 5275
+Connection ~ 3375 5275
+Wire Wire Line
+	3375 5275 3375 5375
+Wire Wire Line
+	6000 2375 6225 2375
+Connection ~ 6000 2375
+Wire Wire Line
+	6000 2375 6000 2475
+Connection ~ 12250 5875
+Wire Wire Line
+	12250 5875 12250 5950
+Wire Wire Line
+	9500 9275 9800 9275
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 60ACA1E9
+P 10525 10050
+AR Path="/60ACA1E9" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/60ACA1E9" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 10525 10050 30  0001 C CNN
+F 1 "GND" H 10525 9980 30  0001 C CNN
+F 2 "" H 10525 10050 50  0001 C CNN
+F 3 "" H 10525 10050 50  0001 C CNN
+	1    10525 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 60ACA1F4
+P 10050 9275
+AR Path="/60ACA1F4" Ref="R?"  Part="1" 
+AR Path="/614792E0/60ACA1F4" Ref="R8"  Part="1" 
+F 0 "R8" V 9865 9275 40  0000 C CNN
+F 1 "0R DNM" V 9941 9275 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 9275 30  0001 C CNN
+F 3 "" H 10050 9275 30  0001 C CNN
+F 4 "Mouser" H 10050 9275 50  0001 C CNN "Provider"
+F 5 "Vishay" H 10050 9275 50  0001 C CNN "Manufacturer"
+F 6 "71-RCC04020000Z0ED" H 10050 9275 50  0001 C CNN "ProviderCode"
+F 7 "RCC04020000Z0ED" H 10050 9275 50  0001 C CNN "manf#"
+	1    10050 9275
+	0    1    1    0   
+$EndComp
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 60ACA200
+P 10525 9600
+AR Path="/60ACA200" Ref="C?"  Part="1" 
+AR Path="/614792E0/60ACA200" Ref="C14"  Part="1" 
+F 0 "C14" H 10410 9562 40  0000 R CNN
+F 1 "100nF" H 10410 9638 40  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10563 9450 30  0001 C CNN
+F 3 "" H 10525 9600 60  0001 C CNN
+F 4 "" H 10525 9600 50  0001 C CNN "Productor"
+F 5 "" H 10525 9600 50  0001 C CNN "Code"
+F 6 "GCM155R71H104KE02J" H 10525 9600 50  0001 C CNN "manf#"
+F 7 "Murata" H 10525 9600 50  0001 C CNN "Manufacturer"
+F 8 "Mouser" H 10525 9600 50  0001 C CNN "Provider"
+F 9 "81-GCM155R71H104KE2J" H 10525 9600 50  0001 C CNN "ProviderCode"
+	1    10525 9600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10525 9400 10525 9275
+Connection ~ 10525 9275
+Wire Wire Line
+	10525 9275 10875 9275
+Wire Wire Line
+	10525 9800 10525 10050
+Wire Wire Line
+	10300 9275 10525 9275
+Wire Wire Line
+	9500 9075 9500 9275
+$Comp
+L Driverino-rescue:CONN_3-conn P?
+U 1 1 608C69C8
+P 14625 3450
+AR Path="/608C69C8" Ref="P?"  Part="1" 
+AR Path="/614792E0/608C69C8" Ref="P1"  Part="1" 
+F 0 "P1" H 14492 3137 40  0000 C CNN
+F 1 "RC_IN" H 14492 3213 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 14625 3450 50  0001 C CNN
+F 3 "" H 14625 3450 50  0001 C CNN
+F 4 "" H 14625 3450 50  0001 C CNN "Productor"
+F 5 "" H 14625 3450 50  0001 C CNN "P/N"
+F 6 "" H 14625 3450 50  0001 C CNN "Code"
+F 7 "70553-0107" H 14625 3450 50  0001 C CNN "manf#"
+F 8 "Mouser" H 14625 3450 50  0001 C CNN "Provider"
+F 9 "Molex" H 14625 3450 50  0001 C CNN "Manufacturer"
+F 10 "538-70553-0107" H 14625 3450 50  0001 C CNN "ProviderCode"
+	1    14625 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13900 3550 13900 3750
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 608C83EE
+P 13900 3750
+AR Path="/608C83EE" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/608C83EE" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 13900 3750 30  0001 C CNN
+F 1 "GND" H 13900 3680 30  0001 C CNN
+F 2 "" H 13900 3750 50  0001 C CNN
+F 3 "" H 13900 3750 50  0001 C CNN
+	1    13900 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 3550 13900 3550
+Wire Wire Line
+	13900 3450 13900 3200
+Wire Wire Line
+	14275 3450 13900 3450
+$Comp
+L Driverino-rescue:+5V-power #PWR029
+U 1 1 608D41E9
+P 13900 3200
+F 0 "#PWR029" H 13900 3290 20  0001 C CNN
+F 1 "+5V" H 13897 3336 40  0000 C CNN
+F 2 "" H 13900 3200 50  0001 C CNN
+F 3 "" H 13900 3200 50  0001 C CNN
+	1    13900 3200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 3350 13600 3350
+Text Label 13600 3350 0    50   ~ 0
+PWM_IN
+Text Label 12650 8250 0    50   ~ 0
+PWM_IN
+Text Label 8500 6600 1    50   ~ 0
+TX_LED
+Wire Wire Line
+	5875 5675 6225 5675
+Text Label 5875 5775 0    50   ~ 0
+RX_LED
+Wire Wire Line
+	5875 5775 6225 5775
+Wire Wire Line
+	6225 5775 6225 5675
+Connection ~ 6225 5675
+Wire Wire Line
+	6225 5675 7050 5675
+Wire Wire Line
+	13650 2075 13125 2075
+Wire Wire Line
+	14150 2075 14725 2075
+Wire Wire Line
+	13900 1925 13900 1750
+Wire Wire Line
+	13125 1750 13125 2075
+Wire Wire Line
+	14725 1750 14725 2075
+$Comp
+L Driverino-rescue:+5V-power #PWR033
+U 1 1 609E3032
+P 14725 1750
+AR Path="/614792E0/609E3032" Ref="#PWR033"  Part="1" 
+AR Path="/613CDDB7/609E3032" Ref="#PWR?"  Part="1" 
+AR Path="/609E3032" Ref="#PWR?"  Part="1" 
+F 0 "#PWR033" H 14725 1840 20  0001 C CNN
+F 1 "+5V" H 14721 1886 40  0000 C CNN
+F 2 "" H 14725 1750 50  0001 C CNN
+F 3 "" H 14725 1750 50  0001 C CNN
+	1    14725 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:VBUS-power #PWR?
+U 1 1 609E3038
+P 13125 1750
+AR Path="/609E3038" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609E3038" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 13125 1900 50  0001 C CNN
+F 1 "VBUS" H 13121 1886 40  0000 C CNN
+F 2 "" H 13125 1850 50  0001 C CNN
+F 3 "" H 13125 1850 50  0001 C CNN
+	1    13125 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609E303E
+P 13900 1750
+AR Path="/609E303E" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609E303E" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 13900 1600 50  0001 C CNN
+F 1 "VCC" H 13915 1916 40  0000 C CNN
+F 2 "" H 13900 1750 50  0001 C CNN
+F 3 "" H 13900 1750 50  0001 C CNN
+	1    13900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driverino-rescue:Jumper_3_Bridged12-Jumper JP?
+U 1 1 609E3044
+P 13900 2075
+AR Path="/609E3044" Ref="JP?"  Part="1" 
+AR Path="/614792E0/609E3044" Ref="JP1"  Part="1" 
+F 0 "JP1" H 13900 2179 40  0000 C CNN
+F 1 "VCC_SEL" H 13900 2255 40  0000 C CNN
+F 2 "Driverino:TDD01H0SB1R" H 13900 2075 50  0001 C CNN
+F 3 "~" H 13900 2075 50  0001 C CNN
+F 4 "	C&K" H 13900 2075 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 13900 2075 50  0001 C CNN "Provider"
+F 6 "611-TDD01H0SB1R" H 13900 2075 50  0001 C CNN "ProviderCode"
+F 7 "TDD01H0SB1R" H 13900 2075 50  0001 C CNN "manf#"
+	1    13900 2075
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609EF9FB
+P 6575 1275
+AR Path="/609EF9FB" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609EF9FB" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 6575 1125 50  0001 C CNN
+F 1 "VCC" H 6590 1441 40  0000 C CNN
+F 2 "" H 6575 1275 50  0001 C CNN
+F 3 "" H 6575 1275 50  0001 C CNN
+	1    6575 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F03D9
+P 2475 4425
+AR Path="/609F03D9" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F03D9" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2475 4275 50  0001 C CNN
+F 1 "VCC" H 2490 4591 40  0000 C CNN
+F 2 "" H 2475 4425 50  0001 C CNN
+F 3 "" H 2475 4425 50  0001 C CNN
+	1    2475 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F1048
+P 7500 3675
+AR Path="/609F1048" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F1048" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 7500 3525 50  0001 C CNN
+F 1 "VCC" H 7515 3841 40  0000 C CNN
+F 2 "" H 7500 3675 50  0001 C CNN
+F 3 "" H 7500 3675 50  0001 C CNN
+	1    7500 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F1884
+P 6225 4775
+AR Path="/609F1884" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F1884" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 6225 4625 50  0001 C CNN
+F 1 "VCC" H 6240 4941 40  0000 C CNN
+F 2 "" H 6225 4775 50  0001 C CNN
+F 3 "" H 6225 4775 50  0001 C CNN
+	1    6225 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F2101
+P 9400 5725
+AR Path="/609F2101" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F2101" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 9400 5575 50  0001 C CNN
+F 1 "VCC" H 9415 5891 40  0000 C CNN
+F 2 "" H 9400 5725 50  0001 C CNN
+F 3 "" H 9400 5725 50  0001 C CNN
+	1    9400 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F2BB1
+P 7700 6550
+AR Path="/609F2BB1" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F2BB1" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 7700 6400 50  0001 C CNN
+F 1 "VCC" H 7715 6716 40  0000 C CNN
+F 2 "" H 7700 6550 50  0001 C CNN
+F 3 "" H 7700 6550 50  0001 C CNN
+	1    7700 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F3B2E
+P 8500 4075
+AR Path="/609F3B2E" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F3B2E" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 8500 3925 50  0001 C CNN
+F 1 "VCC" H 8515 4241 40  0000 C CNN
+F 2 "" H 8500 4075 50  0001 C CNN
+F 3 "" H 8500 4075 50  0001 C CNN
+	1    8500 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F4850
+P 9500 9075
+AR Path="/609F4850" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F4850" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 9500 8925 50  0001 C CNN
+F 1 "VCC" H 9515 9241 40  0000 C CNN
+F 2 "" H 9500 9075 50  0001 C CNN
+F 3 "" H 9500 9075 50  0001 C CNN
+	1    9500 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 609F62B4
+P 15350 4200
+AR Path="/609F62B4" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609F62B4" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 15350 4050 50  0001 C CNN
+F 1 "VCC" H 15365 4366 40  0000 C CNN
+F 2 "" H 15350 4200 50  0001 C CNN
+F 3 "" H 15350 4200 50  0001 C CNN
+	1    15350 4200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line style solid
+	12725 1575 12725 2200
+Wire Notes Line style solid
+	11675 2200 11675 1575
+Wire Notes Line style solid
+	11675 1575 12725 1575
+Wire Notes Line width 12 style solid
+	11675 1700 12725 1700
+Wire Notes Line style solid
+	12000 1575 12000 2200
+Wire Notes Line style solid
+	11675 1825 12725 1825
+Wire Notes Line style solid
+	11675 1950 12725 1950
+Wire Notes Line style solid
+	11675 2075 12725 2075
+Wire Notes Line style solid
+	11675 2200 12725 2200
+Wire Notes Line style solid
+	12350 1575 12350 2200
+Text Notes 11775 1675 0    50   ~ 10
+JP?
+Text Notes 12125 1675 0    50   ~ 10
+VM
+Text Notes 12475 1675 0    50   ~ 10
+USB
+Text Notes 11800 1800 0    50   ~ 0
+-
+Text Notes 12125 1925 0    50   ~ 0
+NO
+Text Notes 12525 1925 0    50   ~ 0
+X
+Text Notes 12150 2050 0    50   ~ 0
+X
+Text Notes 11750 2050 0    50   ~ 0
+1-2
+Text Notes 11750 2175 0    50   ~ 0
+1-2
+Text Notes 12150 2175 0    50   ~ 0
+X
+Text Notes 12525 2175 0    50   ~ 0
+X
+Text Notes 11750 1925 0    50   ~ 0
+2-3
+Text Notes 12500 2050 0    50   ~ 0
+NO
+Text Notes 12125 1800 0    50   ~ 0
+NO
+Text Notes 12500 1800 0    50   ~ 0
+NO
+Wire Wire Line
+	12500 8250 12650 8250
+Wire Wire Line
+	11875 8250 12000 8250
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 6091B53B
+P 12250 8250
+AR Path="/6091B53B" Ref="R?"  Part="1" 
+AR Path="/614792E0/6091B53B" Ref="R11"  Part="1" 
+F 0 "R11" V 12065 8250 40  0000 C CNN
+F 1 "0R DNM" V 12141 8250 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 12180 8250 30  0001 C CNN
+F 3 "" H 12250 8250 30  0000 C CNN
+F 4 "Mouser" H 12250 8250 50  0001 C CNN "Provider"
+F 5 "Vishay" H 12250 8250 50  0001 C CNN "Manufacturer"
+F 6 "71-RCC04020000Z0ED" H 12250 8250 50  0001 C CNN "ProviderCode"
+F 7 "RCC04020000Z0ED" H 12250 8250 50  0001 C CNN "manf#"
+	1    12250 8250
+	0    1    1    0   
+$EndComp
+Text Label 11875 7650 2    50   ~ 0
+D12
+Text Label 11875 7950 2    50   ~ 0
+D5
+$Comp
+L Driverino-rescue:ATmega32U4-V2-30A110-A-symbols U?
+U 1 1 614920D8
+P 8000 5425
+AR Path="/614920D8" Ref="U?"  Part="1" 
+AR Path="/614792E0/614920D8" Ref="U1"  Part="1" 
+F 0 "U1" H 7250 6150 40  0000 L CNN
+F 1 "ATmega32U4" H 8550 6150 40  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 7250 5775 100 0001 C CNN
+F 3 "" H 7250 5775 100 0001 C CNN
+F 4 "Mouser" H 8000 5425 50  0001 C CNN "Provider"
+F 5 "ATmega32U4-MU" H 8000 5425 50  0001 C CNN "manf#"
+F 6 "Atmel" H 8000 5425 50  0001 C CNN "Manufacturer"
+F 7 "556-ATMEGA32U4-MU" H 8000 5425 50  0001 C CNN "ProviderCode"
+	1    8000 5425
+	1    0    0    -1  
+$EndComp
+Text Label 3375 8600 1    50   ~ 0
+RX_LED
+Text Label 3950 8600 1    50   ~ 0
+TX_LED
+Wire Wire Line
+	3375 8600 3375 8825
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 609AE028
+P 3375 10050
+AR Path="/609AE028" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/609AE028" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 3375 10050 30  0001 C CNN
+F 1 "GND" H 3375 9980 30  0001 C CNN
+F 2 "" H 3375 10050 50  0001 C CNN
+F 3 "" H 3375 10050 50  0001 C CNN
+	1    3375 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 9875 3375 10050
+Wire Wire Line
+	3950 9325 3950 9475
+$Comp
+L Driverino-rescue:LED-device D?
+U 1 1 60970870
+P 3950 9675
+AR Path="/60970870" Ref="D?"  Part="1" 
+AR Path="/614792E0/60970870" Ref="D3"  Part="1" 
+F 0 "D3" V 3912 9753 40  0000 L CNN
+F 1 "GREEN" V 3988 9753 40  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3950 9675 60  0001 C CNN
+F 3 "" H 3950 9675 60  0001 C CNN
+F 4 "Kingbright" H 3950 9675 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 3950 9675 50  0001 C CNN "Provider"
+F 6 "604-APT1608SGC" H 3950 9675 50  0001 C CNN "ProviderCode"
+F 7 "APT1608SGC" H 3950 9675 50  0001 C CNN "manf#"
+	1    3950 9675
+	0    1    1    0   
+$EndComp
+$Comp
+L Driverino-rescue:GND-power #PWR?
+U 1 1 6097086A
+P 3950 10050
+AR Path="/6097086A" Ref="#PWR?"  Part="1" 
+AR Path="/614792E0/6097086A" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 3950 10050 30  0001 C CNN
+F 1 "GND" H 3950 9980 30  0001 C CNN
+F 2 "" H 3950 10050 50  0001 C CNN
+F 3 "" H 3950 10050 50  0001 C CNN
+	1    3950 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 9875 3950 10050
+Wire Wire Line
+	3950 8825 3950 8600
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 60970862
+P 3950 9075
+AR Path="/60970862" Ref="R?"  Part="1" 
+AR Path="/614792E0/60970862" Ref="R3"  Part="1" 
+F 0 "R3" H 3879 9113 40  0000 R CNN
+F 1 "1k" H 3879 9037 40  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3880 9075 30  0001 C CNN
+F 3 "" H 3950 9075 30  0000 C CNN
+F 4 "" H 3950 9075 50  0001 C CNN "P/N"
+F 5 "" H 3950 9075 50  0001 C CNN "Productor"
+F 6 "CRCW04021K00FKEDC" H 3950 9075 50  0001 C CNN "manf#"
+F 7 "Mouser" H 3950 9075 50  0001 C CNN "Provider"
+F 8 "" H 3950 9075 50  0001 C CNN "Code"
+F 9 "Vishay" H 3950 9075 50  0001 C CNN "Manufacturer"
+F 10 "71-CRCW04021K00FKEDC" H 3950 9075 50  0001 C CNN "ProviderCode"
+	1    3950 9075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 9325 3375 9475
+$Comp
+L Driverino-rescue:LED-device D?
+U 1 1 61492251
+P 3375 9675
+AR Path="/61492251" Ref="D?"  Part="1" 
+AR Path="/614792E0/61492251" Ref="D2"  Part="1" 
+F 0 "D2" V 3337 9753 40  0000 L CNN
+F 1 "YELLOW" V 3413 9753 40  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3375 9675 60  0001 C CNN
+F 3 "" H 3375 9675 60  0001 C CNN
+F 4 "Kingbright" H 3375 9675 50  0001 C CNN "Manufacturer"
+F 5 "Mouser" H 3375 9675 50  0001 C CNN "Provider"
+F 6 "604-APT1608YC" H 3375 9675 50  0001 C CNN "ProviderCode"
+F 7 "APT1608YC" H 3375 9675 50  0001 C CNN "manf#"
+	1    3375 9675
+	0    1    1    0   
+$EndComp
+$Comp
+L Driverino-rescue:R-device R?
+U 1 1 6149224B
+P 3375 9075
+AR Path="/6149224B" Ref="R?"  Part="1" 
+AR Path="/614792E0/6149224B" Ref="R2"  Part="1" 
+F 0 "R2" H 3304 9113 40  0000 R CNN
+F 1 "1k" H 3304 9037 40  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 9075 30  0001 C CNN
+F 3 "" H 3375 9075 30  0000 C CNN
+F 4 "" H 3375 9075 50  0001 C CNN "P/N"
+F 5 "" H 3375 9075 50  0001 C CNN "Productor"
+F 6 "CRCW04021K00FKEDC" H 3375 9075 50  0001 C CNN "manf#"
+F 7 "Mouser" H 3375 9075 50  0001 C CNN "Provider"
+F 8 "" H 3375 9075 50  0001 C CNN "Code"
+F 9 "Vishay" H 3375 9075 50  0001 C CNN "Manufacturer"
+F 10 "71-CRCW04021K00FKEDC" H 3375 9075 50  0001 C CNN "ProviderCode"
+	1    3375 9075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 5275 12550 5275
+Wire Wire Line
+	12250 5875 12550 5875
+Wire Wire Line
+	7350 6375 7350 6575
+Wire Wire Line
+	7350 6575 6575 6575
+Connection ~ 6575 6575
+Wire Wire Line
+	6575 6575 5600 6575
+Connection ~ 5600 6575
+Wire Wire Line
+	5600 6575 5325 6575
+Wire Wire Line
+	5325 6325 5325 6575
+Connection ~ 5325 6575
+Wire Wire Line
+	5325 6575 5325 6700
+$Comp
+L Driverino-rescue:C-device C?
+U 1 1 609536C4
+P 12250 5575
+AR Path="/609536C4" Ref="C?"  Part="1" 
+AR Path="/614792E0/609536C4" Ref="C15"  Part="1" 
+F 0 "C15" H 12364 5537 40  0000 L CNN
+F 1 "10uF" H 12364 5613 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 12288 5425 30  0001 C CNN
+F 3 "" H 12250 5575 60  0001 C CNN
+F 4 "C3216X7R1H106K160AE" H 12250 5575 50  0001 C CNN "manf#"
+F 5 "TDK" H 12250 5575 50  0001 C CNN "Manufacturer"
+F 6 "Mouser" H 12250 5575 50  0001 C CNN "Provider"
+F 7 "810-C3216X7R1H106160" H 12250 5575 50  0001 C CNN "ProviderCode"
+	1    12250 5575
+	-1   0    0    1   
+$EndComp
+Text Label 11875 8250 2    50   ~ 0
+D4
+Wire Wire Line
+	11875 7950 12150 7950
+Wire Wire Line
+	13250 7650 13375 7650
+Wire Wire Line
+	11875 7650 12150 7650
+Text Label 10875 9275 2    50   ~ 0
+A3
+Text Label 6500 9275 2    50   ~ 0
+A0
+$EndSCHEMATC
