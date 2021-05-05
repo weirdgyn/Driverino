@@ -1,3 +1,6 @@
 
 Driverino.sch-bak
 *.sch-bak
+*.kicad_pcb-bak
+*.bck
+_autosave*.*
