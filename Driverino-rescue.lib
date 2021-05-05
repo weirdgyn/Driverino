@@ -517,6 +517,20 @@ X VBUS 1 0 0 0 U 20 20 1 0 W N
 ENDDRAW
 ENDDEF
 #
+# VCC-power
+#
+DEF VCC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 30 H I C CNN
+F1 "VCC-power" 0 100 30 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 20 0 1 0 N
+P 3 0 1 0 0 0 0 30 0 30 N
+X VCC 1 0 0 0 U 20 20 0 0 W N
+ENDDRAW
+ENDDEF
+#
 # ZENERsmall-device
 #
 DEF ZENERsmall-device D 0 40 N N 1 F N

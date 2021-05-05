@@ -1335,7 +1335,7 @@ F 3 "" H 13125 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609E303E
 P 13900 1750
 AR Path="/609E303E" Ref="#PWR?"  Part="1" 
@@ -1365,7 +1365,7 @@ F 7 "TDD01H0SB1R" H 13900 2075 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609EF9FB
 P 6575 1275
 AR Path="/609EF9FB" Ref="#PWR?"  Part="1" 
@@ -1378,7 +1378,7 @@ F 3 "" H 6575 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F03D9
 P 2475 4425
 AR Path="/609F03D9" Ref="#PWR?"  Part="1" 
@@ -1391,7 +1391,7 @@ F 3 "" H 2475 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F1048
 P 7500 3675
 AR Path="/609F1048" Ref="#PWR?"  Part="1" 
@@ -1404,7 +1404,7 @@ F 3 "" H 7500 3675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F1884
 P 6225 4775
 AR Path="/609F1884" Ref="#PWR?"  Part="1" 
@@ -1417,7 +1417,7 @@ F 3 "" H 6225 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F2101
 P 9400 5725
 AR Path="/609F2101" Ref="#PWR?"  Part="1" 
@@ -1430,7 +1430,7 @@ F 3 "" H 9400 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F2BB1
 P 7700 6550
 AR Path="/609F2BB1" Ref="#PWR?"  Part="1" 
@@ -1443,7 +1443,7 @@ F 3 "" H 7700 6550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F3B2E
 P 8500 4075
 AR Path="/609F3B2E" Ref="#PWR?"  Part="1" 
@@ -1456,7 +1456,7 @@ F 3 "" H 8500 4075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F4850
 P 9500 9075
 AR Path="/609F4850" Ref="#PWR?"  Part="1" 
@@ -1469,7 +1469,7 @@ F 3 "" H 9500 9075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Driverino-rescue:VCC-power #PWR?
 U 1 1 609F62B4
 P 15350 4200
 AR Path="/609F62B4" Ref="#PWR?"  Part="1" 
