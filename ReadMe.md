@@ -44,9 +44,9 @@ TBD
 
 # TODO:
 
-Optimize PCB layout.
-Write Library.
-Write Firmware.
+* Optimize PCB layout.
+* Write Library.
+* Write Firmware.
 
 # Links
 
