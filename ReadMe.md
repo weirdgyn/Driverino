@@ -40,9 +40,14 @@ TBD
 
 # TODO:
 
-* Optimize PCB layout.
-* Write Library.
-* Write Firmware.
+[ ] Add features:
+   [ ] vm measurement;
+   [ ] current measurement.
+[ ] Optimize PCB layout.
+[ ] Write Library.
+[ ] Write Firmware.
+[ ] Submit to Kitspace
+[ ] Submit to Made-With-KiCAD
 
 # Links
 
