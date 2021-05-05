@@ -2,7 +2,7 @@
 
 ## *"Driverino" (italian noun - means 'small driver').*
 
-Driverino is a pretty simple, low power, driver for BLDC sensored motors.
+Driverino is a pretty simple, low power, driver for [BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor) sensored motors.
 The project target was to create a very small unit capable of drving a sensored BLDC motor rated about 50-100W, the board itself
 is quite small measuring only 26x41mm.
 The board is fitted with ATmega32U4 unit (the same of Arduino Micro Pro commercial boards). Once the correct bootloader
