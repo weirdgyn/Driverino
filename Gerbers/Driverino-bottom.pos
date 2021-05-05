@@ -1,0 +1,41 @@
+### Module positions - created on 05/05/21 16:59:24 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                 PosX       PosY       Rot  Side
+C1        100nF        C_0402_1005Metric   147.5500  -107.9500   90.0000  bottom
+C2        100nF        C_0402_1005Metric   148.5000  -107.9500   90.0000  bottom
+C3        1uF          C_0603_1608Metric   136.6500  -102.6375    0.0000  bottom
+C4        1uF          C_0603_1608Metric   140.9500  -104.3750   90.0000  bottom
+C5        100nF        C_0402_1005Metric   151.7500   -99.6350  270.0000  bottom
+C6        100nF        C_0402_1005Metric   137.2750   -97.2000    0.0000  bottom
+C7        100nF        C_0402_1005Metric   153.0500   -97.9000  270.0000  bottom
+C9        100nF        C_0402_1005Metric   150.7000   -98.6750   90.0000  bottom
+C12       100nF        C_0402_1005Metric   152.8000   -95.6000    0.0000  bottom
+C13       100nF        C_0402_1005Metric   150.8500   -95.9500   45.0000  bottom
+C14       100nF        C_0402_1005Metric   137.2500   -98.2500    0.0000  bottom
+C15       10uF         C_1206_3216Metric   136.2500  -107.7500   90.0000  bottom
+C16       100nF        C_0402_1005Metric   138.0000  -106.7500   90.0000  bottom
+C23       1uF          C_0603_1608Metric   134.1850   -83.2500    0.0000  bottom
+C24       100nF        C_0402_1005Metric   135.9000   -95.2000  270.0000  bottom
+C25       100nF        C_0402_1005Metric   135.9000   -92.7000  270.0000  bottom
+C26       100nF        C_0402_1005Metric   135.9000   -90.2000  270.0000  bottom
+D1        DIODE        D_0402_1005Metric   145.5250  -107.9500  270.0000  bottom
+L1        MH2029-300Y  R_0805_2012Metric   139.1625  -103.5500   90.0000  bottom
+R1        10k          R_0402_1005Metric   146.5500  -107.9500  270.0000  bottom
+R2        1k           R_0402_1005Metric   155.9900  -101.7000    0.0000  bottom
+R3        1k           R_0402_1005Metric   156.0775   -93.2500    0.0000  bottom
+R11       0R_DNM       R_0402_1005Metric   151.1200  -104.0000   90.0000  bottom
+R18       1k           R_0402_1005Metric   134.4500   -78.4000  180.0000  bottom
+R19       1k           R_0402_1005Metric   156.0275  -103.3500    0.0000  bottom
+R20       4.7k         R_0402_1005Metric   156.2000   -77.1750    0.0000  bottom
+R21       330R         R_0402_1005Metric   134.4500   -81.4000  180.0000  bottom
+R22       5.1k         R_0402_1005Metric   143.6000   -92.4000    0.0000  bottom
+R23       5.1k         R_0402_1005Metric   137.5000   -92.6000    0.0000  bottom
+R24       10k          R_0402_1005Metric   137.0000   -94.1000  270.0000  bottom
+R25       0R           R_0402_1005Metric   133.2000   -95.3000   90.0000  bottom
+R27       10k          R_0402_1005Metric   137.0000   -91.1000   90.0000  bottom
+R28       0R           R_0402_1005Metric   133.2000   -92.8000   90.0000  bottom
+R29       10k          R_0402_1005Metric   137.0000   -89.1000  270.0000  bottom
+R30       0R           R_0402_1005Metric   133.2000   -90.3000   90.0000  bottom
+## End

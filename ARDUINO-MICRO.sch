@@ -429,8 +429,6 @@ Text Label 7600 6600 1    50   ~ 0
 RESET
 Wire Wire Line
 	14225 4650 14050 4650
-Text Label 6500 9275 2    50   ~ 0
-A5
 Wire Wire Line
 	5150 9275 5350 9275
 $Comp
@@ -740,13 +738,13 @@ P 12925 5275
 AR Path="/614921EC" Ref="F?"  Part="1" 
 AR Path="/614792E0/614921EC" Ref="F1"  Part="1" 
 F 0 "F1" H 12925 5492 40  0000 C CNN
-F 1 "0.2A " H 12925 5416 40  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 12925 5275 60  0001 C CNN
+F 1 "200mA" H 12925 5416 40  0000 C CNN
+F 2 "Fuse:Fuse_0402_1005Metric" H 12925 5275 60  0001 C CNN
 F 3 "" H 12925 5275 60  0001 C CNN
 F 4 "Bourns" H 12925 5275 50  0001 C CNN "Manufacturer"
-F 5 "652-MF-NSMF020X-2" H 12925 5275 50  0001 C CNN "ProviderCode"
+F 5 "652-MF-ASML020/6-2" H 12925 5275 50  0001 C CNN "ProviderCode"
 F 6 "Mouser" H 12925 5275 50  0001 C CNN "Provider"
-F 7 "MF-NSMF020X-2" H 12925 5275 50  0001 C CNN "manf#"
+F 7 "MF-ASML020/6-2" H 12925 5275 50  0001 C CNN "manf#"
 F 8 "" H 12925 5275 50  0001 C CNN "Productor"
 	1    12925 5275
 	1    0    0    -1  
@@ -912,21 +910,6 @@ F 3 "" H 12250 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12550 5375 12550 5275
-Wire Wire Line
-	7150 9075 7150 9275
-$Comp
-L power:HT #PWR?
-U 1 1 614922C9
-P 7150 9075
-AR Path="/614922C9" Ref="#PWR?"  Part="1" 
-AR Path="/614792E0/614922C9" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 7150 9195 20  0001 C CNN
-F 1 "HT" H 7170 9211 40  0000 C CNN
-F 2 "" H 7150 9075 50  0001 C CNN
-F 3 "" H 7150 9075 50  0001 C CNN
-	1    7150 9075
-	1    0    0    -1  
-$EndComp
 Text Label 14050 4650 0    50   ~ 0
 RESET
 Text HLabel 14050 4450 0    50   Output ~ 0
@@ -1181,8 +1164,6 @@ Wire Wire Line
 Connection ~ 12250 5875
 Wire Wire Line
 	12250 5875 12250 5950
-Text Label 10875 9275 2    50   ~ 0
-A3
 Wire Wire Line
 	9500 9275 9800 9275
 $Comp
@@ -1713,97 +1694,6 @@ Wire Wire Line
 Wire Wire Line
 	12250 5875 12550 5875
 Wire Wire Line
-	8375 9900 8375 10050
-Connection ~ 8375 9900
-Wire Wire Line
-	8000 9900 8375 9900
-Wire Wire Line
-	8000 9850 8000 9900
-Wire Wire Line
-	8000 9275 8375 9275
-Connection ~ 8000 9275
-Wire Wire Line
-	8000 9350 8000 9275
-Connection ~ 8375 9275
-Wire Wire Line
-	8375 9275 8725 9275
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 614920AF
-P 8000 9600
-AR Path="/614920AF" Ref="R?"  Part="1" 
-AR Path="/614792E0/614920AF" Ref="R6"  Part="1" 
-F 0 "R6" H 7929 9562 40  0000 R CNN
-F 1 "0R DNM" H 7929 9638 40  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 9600 30  0001 C CNN
-F 3 "" H 8000 9600 30  0000 C CNN
-F 4 "Mouser" H 8000 9600 50  0001 C CNN "Provider"
-F 5 "Vishay" H 8000 9600 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 8000 9600 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 8000 9600 50  0001 C CNN "manf#"
-	1    8000 9600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8375 9725 8375 9900
-Wire Wire Line
-	8375 9275 8375 9525
-$Comp
-L Driverino-rescue:ZENERsmall-device D?
-U 1 1 6149209F
-P 8375 9625
-AR Path="/6149209F" Ref="D?"  Part="1" 
-AR Path="/614792E0/6149209F" Ref="D4"  Part="1" 
-F 0 "D4" V 8405 9556 40  0000 R CNN
-F 1 "VZ=5V" V 8337 9556 30  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" V 8325 9550 60  0001 R CNN
-F 3 "" H 8375 9625 60  0000 C CNN
-F 4 "Mouser" H 8375 9625 50  0001 C CNN "Provider"
-F 5 "" H 8375 9625 50  0001 C CNN "Code"
-F 6 "" H 8375 9625 50  0001 C CNN "Productor"
-F 7 "BZX884S-C5V1YL" H 8375 9625 50  0001 C CNN "manf#"
-F 8 "Nexperia" H 8375 9625 50  0001 C CNN "Manufacturer"
-F 9 "771-BZX884S-C5V1YL" H 8375 9625 50  0001 C CNN "ProviderCode"
-	1    8375 9625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Driverino-rescue:GND-power #PWR?
-U 1 1 61492093
-P 8375 10050
-AR Path="/61492093" Ref="#PWR?"  Part="1" 
-AR Path="/614792E0/61492093" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 8375 10050 30  0001 C CNN
-F 1 "GND" H 8375 9980 30  0001 C CNN
-F 2 "" H 8375 10050 50  0001 C CNN
-F 3 "" H 8375 10050 50  0001 C CNN
-	1    8375 10050
-	1    0    0    -1  
-$EndComp
-Text Label 8725 9275 2    50   ~ 0
-A4
-Wire Wire Line
-	7150 9275 7325 9275
-Wire Wire Line
-	7825 9275 8000 9275
-$Comp
-L Driverino-rescue:R-device R?
-U 1 1 614920A8
-P 7575 9275
-AR Path="/614920A8" Ref="R?"  Part="1" 
-AR Path="/614792E0/614920A8" Ref="R5"  Part="1" 
-F 0 "R5" V 7390 9275 40  0000 C CNN
-F 1 "0R DNM" V 7466 9275 40  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7505 9275 30  0001 C CNN
-F 3 "" H 7575 9275 30  0000 C CNN
-F 4 "Mouser" H 7575 9275 50  0001 C CNN "Provider"
-F 5 "Vishay" H 7575 9275 50  0001 C CNN "Manufacturer"
-F 6 "71-RCC04020000Z0ED" H 7575 9275 50  0001 C CNN "ProviderCode"
-F 7 "RCC04020000Z0ED" H 7575 9275 50  0001 C CNN "manf#"
-	1    7575 9275
-	0    1    1    0   
-$EndComp
-Wire Wire Line
 	7350 6375 7350 6575
 Wire Wire Line
 	7350 6575 6575 6575
@@ -1843,4 +1733,8 @@ Wire Wire Line
 	13250 7650 13375 7650
 Wire Wire Line
 	11875 7650 12150 7650
+Text Label 10875 9275 2    50   ~ 0
+A3
+Text Label 6500 9275 2    50   ~ 0
+A0
 $EndSCHEMATC

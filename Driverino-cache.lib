@@ -494,26 +494,6 @@ X VBUS 1 0 0 0 U 20 20 1 0 W N
 ENDDRAW
 ENDDEF
 #
-# Driverino-rescue_ZENERsmall-device
-#
-DEF Driverino-rescue_ZENERsmall-device D 0 40 N N 1 F N
-F0 "D" 0 100 40 H V C CNN
-F1 "Driverino-rescue_ZENERsmall-device" 0 -100 30 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- D?
- SO*
- SM*
-$ENDFPLIST
-DRAW
-P 4 0 1 0 -40 40 40 0 -40 -40 -40 40 F
-P 4 0 1 8 60 40 40 20 40 -20 20 -40 N
-X K 1 100 0 60 L 40 40 1 1 P
-X A 2 -100 0 60 R 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # power_HT
 #
 DEF power_HT #PWR 0 0 Y Y 1 F P
