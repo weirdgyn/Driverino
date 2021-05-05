@@ -8,7 +8,7 @@ is quite small measuring only 26x41mm.
 The board is fitted with ATmega32U4 unit (the same of Arduino Micro Pro commercial boards). Once the correct bootloader
 has been burned-in trough ICSP connector the board should act as an Arduino board (at least for programming/debugging 
 task).
-The board project includes:
+The project includes:
  1. Fully designed 2 layers PCB board;
  2. Driverino firmware sources;
  3. MCT8316Z library sources.
