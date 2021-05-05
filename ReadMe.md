@@ -42,6 +42,12 @@ TBD
 
 TBD
 
+# TODO:
+
+Optimize PCB layout.
+Write Library.
+Write Firmware.
+
 # Links
 
 * [Atmel/Microchip ATMega32U4](https://www.microchip.com/wwwproducts/en/ATmega32U4)
