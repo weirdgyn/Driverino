@@ -46,3 +46,4 @@ TBD
 
 * [Atmel/Microchip ATMega32U4](https://www.microchip.com/wwwproducts/en/ATmega32U4)
 * [TI MCT8316Z](https://www.ti.com/product/MCT8316Z?keyMatch=MCT8316Z&tisearch=search-everything)
+* [Arduino](https://www.arduino.cc/)
