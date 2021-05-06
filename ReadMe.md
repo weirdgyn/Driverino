@@ -42,7 +42,7 @@ TBD
 
 - [ ] Add features:
    - [ ] vm measurement;
-   - [ ] current measurement.
+   - [ ] current measurement (via INA250).
 - [ ] Optimize PCB layout.
 - [ ] Write Library.
 - [ ] Write Firmware.
