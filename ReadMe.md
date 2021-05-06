@@ -27,7 +27,7 @@ The library allows Arduino users to interact with BLDC motors without knowledge 
 * RS232 interface;
 * Standard R/C input compatibile.
 
-The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max) mimicking a BEC R/C feature.
+The board can drive up to 24V-36V 8A rated sensored BLDC motors and provide 5V power supply (200mA max) mimicking R/C ESC BEC feature.
 Driverino supports a variety of different types of Hall's sensors (analog single ended, analog differtial, digital) and also different sensors supply rates (3.3V and 5V). To correctly fit for a specific sensor kind some soldering may be required: by default the board project is fitted for digital 5V sensors.
 
 ## Firmware
