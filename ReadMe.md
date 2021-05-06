@@ -1,6 +1,6 @@
 # Driverino 
 
-##        (noun) /ˈdraɪvərnəʊ/ : *small driver*.
+### (noun) /ˈdraɪvərnəʊ/ : *small driver*
 
 Driverino is a pretty simple, low power, driver for [BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor) sensored motors.
 The project target was to create a very small unit capable of driving a motor rated about 50-100W.
