@@ -1,4 +1,4 @@
-### Module positions - created on 05/05/21 17:41:23 ###
+### Module positions - created on 05/10/21 17:38:32 ###
 ### Printed by Pcbnew version kicad (5.1.9)-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -14,7 +14,7 @@ C9        100nF        C_0402_1005Metric   150.7000   -98.6750   90.0000  bottom
 C12       100nF        C_0402_1005Metric   152.8000   -95.6000    0.0000  bottom
 C13       100nF        C_0402_1005Metric   150.8500   -95.9500   45.0000  bottom
 C14       100nF        C_0402_1005Metric   137.2500   -98.2500    0.0000  bottom
-C15       10uF         C_1206_3216Metric   136.2500  -107.7500   90.0000  bottom
+C15       10uF         C_1206_3216Metric   136.3500  -105.8000   90.0000  bottom
 C16       100nF        C_0402_1005Metric   138.0000  -106.7500   90.0000  bottom
 C23       1uF          C_0603_1608Metric   134.1850   -83.2500    0.0000  bottom
 C24       100nF        C_0402_1005Metric   135.9000   -95.2000  270.0000  bottom

@@ -1,5 +1,5 @@
 Drill report for C:\Users\m.santucci\source\repos\Driverino\Driverino.kicad_pcb
-Created on 05/05/2021 17:41:14
+Created on 10/05/2021 17:37:39
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'Driverino-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,20mm  0,008"  (55 holes)
-    T2  0,40mm  0,016"  (15 holes)
+    T1  0,20mm  0,008"  (54 holes)
+    T2  0,40mm  0,016"  (13 holes)
     T3  0,50mm  0,020"  (11 holes)
-    T4  0,65mm  0,026"  (5 holes)  (with 2 slots)
+    T4  0,65mm  0,026"  (8 holes)  (with 2 slots)
     T5  0,70mm  0,028"  (2 holes)  (with 2 slots)
     T6  1,00mm  0,039"  (9 holes)
     T7  1,30mm  0,051"  (5 holes)
