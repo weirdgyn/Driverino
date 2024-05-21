@@ -1,0 +1,395 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "28736f4a-d3e1-48d0-84cf-91ca743ca464")
+	(paper "A4")
+	(title_block
+		(title "DRIVERINO")
+		(date "2021-04-29")
+		(rev "01")
+		(company "TuX's Design")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 146.685 106.045) (xy 150.495 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bf572a-231e-41f4-acf9-06ac21b8171b")
+	)
+	(wire
+		(pts
+			(xy 146.685 95.25) (xy 150.495 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6a2d0b-2fd4-494f-9d90-e4a50c292ce9")
+	)
+	(wire
+		(pts
+			(xy 146.685 71.12) (xy 150.495 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c0a696-afd9-45b6-b0f1-21075154e476")
+	)
+	(wire
+		(pts
+			(xy 146.685 97.79) (xy 150.495 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f13b6c-c983-406b-8360-b19650a527a6")
+	)
+	(wire
+		(pts
+			(xy 146.685 67.945) (xy 150.495 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b89fc45-72db-481a-83af-c05bfff72a9f")
+	)
+	(wire
+		(pts
+			(xy 146.685 85.09) (xy 150.495 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78de3717-6cf4-4c69-8bea-abca99a3cd82")
+	)
+	(wire
+		(pts
+			(xy 146.685 77.47) (xy 150.495 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed7a5f5-baa4-4457-81a8-db9e4d57ceec")
+	)
+	(wire
+		(pts
+			(xy 150.495 87.63) (xy 146.685 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92688394-2adb-4842-b20f-ac1f7b27a32a")
+	)
+	(wire
+		(pts
+			(xy 146.685 74.295) (xy 150.495 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e85fbb-fd9f-4042-8285-d762949d9827")
+	)
+	(wire
+		(pts
+			(xy 146.685 100.33) (xy 150.495 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23bc62b-c0a2-40c8-a34f-6531de75bb9e")
+	)
+	(sheet
+		(at 150.495 62.865)
+		(size 75.565 47.625)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000613cddb7")
+		(property "Sheetname" "DRIVER"
+			(at 150.495 62.1534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRIVER.kicad_sch"
+			(at 150.495 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FGOUT" output
+			(at 150.495 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e59f3cb-ff63-4503-9cae-e3106a796ced")
+		)
+		(pin "PWM" input
+			(at 150.495 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "faeaad62-4a11-4980-ac45-e1863311f12c")
+		)
+		(pin "BRAKE" input
+			(at 150.495 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a048657-f529-4630-8c65-8f913b77a57d")
+		)
+		(pin "ILIM" input
+			(at 150.495 106.045 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9290e418-53b2-4d16-ab6a-abe492d75587")
+		)
+		(pin "CS2" input
+			(at 150.495 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f99d7a3-3aaa-4dc7-a12c-662233c07f84")
+		)
+		(pin "SCK" input
+			(at 150.495 74.295 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "231ddaad-5d5d-4c7f-b332-f1085683efcf")
+		)
+		(pin "MOSI" input
+			(at 150.495 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "75eafc76-ba06-43db-9553-9a723d5cdceb")
+		)
+		(pin "MISO" output
+			(at 150.495 67.945 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10f309d0-0a81-47b2-bc06-e57bfabbfd3b")
+		)
+		(pin "DRVOFF" input
+			(at 150.495 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a441c160-3aa2-4708-be16-0da5d3e07035")
+		)
+		(pin "FAULT" output
+			(at 150.495 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f970d4d3-cea1-41f1-893d-d7012697145b")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.755 62.865)
+		(size 74.93 47.625)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000614792e0")
+		(property "Sheetname" "ARDUINO-MICRO"
+			(at 71.755 62.1534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ARDUINO-MICRO.kicad_sch"
+			(at 71.755 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" input
+			(at 146.685 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8cbafae-53eb-4aa3-b0f0-64cbba9ff90d")
+		)
+		(pin "SCK" input
+			(at 146.685 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2993c185-38dd-492f-8b7b-69946ad5c12d")
+		)
+		(pin "MOSI" input
+			(at 146.685 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e90c075a-866d-40bf-8a73-5cac2e6fa38c")
+		)
+		(pin "ILIM" output
+			(at 146.685 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a658e99f-31c5-4f3d-a10e-3c9a6f311abc")
+		)
+		(pin "FGOUT" input
+			(at 146.685 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "feadbe0f-bcf7-4efb-b395-ff8e0def6cc9")
+		)
+		(pin "FAULT" input
+			(at 146.685 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cadddcfb-ea17-48af-a1d5-e762527729a1")
+		)
+		(pin "DRVOFF" output
+			(at 146.685 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "999d2b5f-3849-4c83-919f-33da9f92c9de")
+		)
+		(pin "PWM" output
+			(at 146.685 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9bd5715e-df80-41ad-90b7-b269d30da83a")
+		)
+		(pin "BRAKE" output
+			(at 146.685 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60d9d0aa-73ae-4d17-938f-983ab59aba98")
+		)
+		(pin "CS2" output
+			(at 146.685 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "313d19bb-12ff-4b25-a0bf-060549e9ddc6")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

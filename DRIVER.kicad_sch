@@ -1,0 +1,10491 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f3816894-7d2d-4e02-89fd-7a0f6946d6c1")
+	(paper "A4")
+	(title_block
+		(title "Driver")
+		(date "2021-04-29")
+		(rev "01")
+		(company "TuX's Design")
+	)
+	(lib_symbols
+		(symbol "Driverino-rescue:+3.3V-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -1.016 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V-power"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V-power_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+3.3V-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.016) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.524)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:+5V-power"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V-power"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V-power_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+5V-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.762) (xy 0 0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:C-device"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C-device"
+				(at 0.1524 -2.159 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SM* C? C1-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C-device_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-device_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:CONN_2-conn"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "CONN_2-conn"
+				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_2-conn_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_2-conn_1_1"
+				(pin passive inverted
+					(at -8.89 2.54 0)
+					(length 6.35)
+					(name "P1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -2.54 0)
+					(length 6.35)
+					(name "PM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:CONN_3-conn"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN_3-conn"
+				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_3-conn_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_3-conn_1_1"
+				(pin passive inverted
+					(at -8.89 2.54 0)
+					(length 6.35)
+					(name "P1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 0 0)
+					(length 6.35)
+					(name "PM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -2.54 0)
+					(length 6.35)
+					(name "P3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:CONN_8-conn"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CONN_8-conn"
+				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_8-conn_0_1"
+				(rectangle
+					(start -2.54 10.16)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_8-conn_1_1"
+				(pin passive inverted
+					(at -8.89 8.89 0)
+					(length 6.35)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 6.35 0)
+					(length 6.35)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 3.81 0)
+					(length 6.35)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 1.27 0)
+					(length 6.35)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -1.27 0)
+					(length 6.35)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -3.81 0)
+					(length 6.35)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -6.35 0)
+					(length 6.35)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -8.89 -8.89 0)
+					(length 6.35)
+					(name "P8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:CP1-device"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP1-device"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP* SM*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP1-device_0_0"
+				(text "+"
+					(at -1.27 2.54 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+			)
+			(symbol "CP1-device_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -1.27)
+					(mid 0 -0.5009)
+					(end -2.54 -1.27)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP1-device_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.572)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:FUSE-device"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "FUSE-device"
+				(at -2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FUSE-device_0_1"
+				(arc
+					(start 0 0)
+					(mid -1.905 1.8967)
+					(end -3.81 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.905 -1.8967)
+					(end 3.81 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FUSE-device_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-power"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:GNDPWR-power"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR-power"
+				(at 0 -2.032 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR-power_0_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -1.27 -0.762) (xy -1.27 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -0.762 -0.762) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.254 -0.762) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.254 -0.762) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -1.016 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 0.762 -0.762) (xy 0.762 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "GNDPWR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:INDUCTOR_SMALL-device"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INDUCTOR_SMALL-device"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INDUCTOR_SMALL-device_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -3.81 1.2645)
+					(end -5.08 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -1.27 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.81 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INDUCTOR_SMALL-device_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:Jumper_3_Bridged12-Jumper"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12-Jumper"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12-Jumper_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12-Jumper_0_1"
+				(arc
+					(start -0.254 0.508)
+					(mid -1.651 0.9912)
+					(end -3.048 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12-Jumper_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:LED-device"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED-device"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED-3MM LED-5MM LED-10MM LED-0603 LED-0805 LED-1206 LEDV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED-device_0_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 -1.016) (xy 2.794 -2.032) (xy 2.667 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.635) (xy 3.175 -1.651) (xy 3.048 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED-device_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:MCT8316Z-texas2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCT8316Z-texas2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 48.895 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 48.895 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCT8316Z-texas2_0_0"
+				(pin no_connect line
+					(at -20.955 13.97 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 -8.89 0)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 -11.43 0)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 -13.97 0)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 -29.21 90)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -6.35 -29.21 90)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -29.21 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -1.27 -29.21 90)
+					(length 5.08)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16,"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 1.27 -29.21 90)
+					(length 5.08)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -29.21 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 -29.21 90)
+					(length 5.08)
+					(name "OUTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 11.43 0)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -29.21 90)
+					(length 5.08)
+					(name "OUTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 -13.97 180)
+					(length 5.08)
+					(name "DRVOFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 20.955 -11.43 180)
+					(length 5.08)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 20.955 -8.89 180)
+					(length 5.08)
+					(name "~{SLEEP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 20.955 -6.35 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.955 -3.81 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.955 -1.27 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 1.27 180)
+					(length 5.08)
+					(name "HPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 3.81 180)
+					(length 5.08)
+					(name "HNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 6.35 180)
+					(length 5.08)
+					(name "HPB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 8.89 0)
+					(length 5.08)
+					(name "FB_BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 8.89 180)
+					(length 5.08)
+					(name "HNB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 11.43 180)
+					(length 5.08)
+					(name "HPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 13.97 180)
+					(length 5.08)
+					(name "HNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 27.94 270)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 27.94 270)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 27.94 270)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 1.27 27.94 270)
+					(length 5.08)
+					(name "~{SCS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 27.94 270)
+					(length 5.08)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 27.94 270)
+					(length 5.08)
+					(name "BRAKE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 27.94 270)
+					(length 5.08)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 6.35 0)
+					(length 5.08)
+					(name "GND_BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 27.94 270)
+					(length 5.08)
+					(name "FGOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 20.32 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -20.955 3.81 0)
+					(length 5.08)
+					(name "SW_BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 1.27 0)
+					(length 5.08)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 -1.27 0)
+					(length 5.08)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 -3.81 0)
+					(length 5.08)
+					(name "CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.955 -6.35 0)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCT8316Z-texas2_0_1"
+				(rectangle
+					(start -15.875 22.86)
+					(end 15.875 -24.13)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Driverino-rescue:R-device"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R-device"
+				(at 0.1778 0.0254 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-device_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-device_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:HT"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "HT"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"HT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HT_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "HT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HT_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.016) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0.508 0.508) (xy 0 1.778) (xy -0.508 0.508) (xy 0 1.016) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 238.125 98.425)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077f7733-09c7-46ad-beee-07edc104ef93")
+	)
+	(junction
+		(at 178.435 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f2f3b3-aeb3-485e-af88-c472a142132e")
+	)
+	(junction
+		(at 242.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193392d8-aa65-40f3-85d6-0ba1e7c01212")
+	)
+	(junction
+		(at 242.57 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cdb2ed3-9e85-491b-9f69-2c9bb8478917")
+	)
+	(junction
+		(at 109.22 127.635)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "260bd2e7-ecf6-4d6a-90ab-bad1d3ccf105")
+	)
+	(junction
+		(at 57.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cae7b3d-3b73-4252-afc9-f82e375f6462")
+	)
+	(junction
+		(at 116.84 130.175)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58726d1f-e112-4fef-abc5-607f9fc171e6")
+	)
+	(junction
+		(at 253.365 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bea8c40-0b97-4168-840f-7393a3978960")
+	)
+	(junction
+		(at 178.435 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f68443d-7c87-4139-9f1e-ee42ff300f8b")
+	)
+	(junction
+		(at 149.225 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60961509-d088-42d9-ab49-8b6a5647a992")
+	)
+	(junction
+		(at 253.365 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7768a5d9-5a6e-4a78-9215-0c24f94b7481")
+	)
+	(junction
+		(at 74.93 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79c7c174-55b0-4b4f-bcfd-3c8c93300f47")
+	)
+	(junction
+		(at 242.57 93.345)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d2e558d-f191-4d47-b7b7-c3cf7f9ac76b")
+	)
+	(junction
+		(at 178.435 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8086ee7b-e44b-4a99-bdb4-f1147f5d81e1")
+	)
+	(junction
+		(at 119.38 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e60cf6f-821c-4c1b-84ed-b464273fbf54")
+	)
+	(junction
+		(at 67.31 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90421ea6-ea46-4434-b046-75394fddcc25")
+	)
+	(junction
+		(at 101.6 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b047c79-cbf1-4ccf-8f00-47de01c881c7")
+	)
+	(junction
+		(at 106.68 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a111b583-aa12-4182-a1c6-f4c358fbc92c")
+	)
+	(junction
+		(at 247.015 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e94ce7-4187-4b92-bd5b-15f98ad5b08d")
+	)
+	(junction
+		(at 67.31 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a573c223-b6a0-4ea9-8774-feebe78f5851")
+	)
+	(junction
+		(at 247.015 88.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e9fd09-65ca-43dd-acc2-d9b4b0004818")
+	)
+	(junction
+		(at 57.15 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae33767c-34b3-456e-acaa-40443c3d384d")
+	)
+	(junction
+		(at 247.015 85.725)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb6677e8-c85c-465b-a464-a6ccaf83af58")
+	)
+	(junction
+		(at 57.15 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf6325db-270e-4693-9f92-02085ee3adf6")
+	)
+	(junction
+		(at 242.57 90.805)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a90174-3006-4e97-a6d9-a4851c28b26d")
+	)
+	(junction
+		(at 149.225 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c31ca72a-b2c2-4db1-9da6-65febcef41e4")
+	)
+	(junction
+		(at 238.125 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3367ecb-f6cb-46b1-a77a-f7665a2a1e81")
+	)
+	(junction
+		(at 114.3 132.715)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd1974b4-4add-4f7e-9c48-36e20c6e478c")
+	)
+	(junction
+		(at 106.68 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de3fa6a9-7d4b-4b7d-bd45-39c2fee06345")
+	)
+	(junction
+		(at 242.57 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df7dcce8-3853-4e42-8669-5f9d6aac7013")
+	)
+	(junction
+		(at 178.435 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e21f23a8-333a-424f-a2e6-bb12f1bdf590")
+	)
+	(junction
+		(at 178.435 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3a1ca95-16d2-4ca8-a78f-3dad6e92e8b6")
+	)
+	(junction
+		(at 178.435 99.695)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4cf8d65-4960-44a3-ab1e-2a3ada58480e")
+	)
+	(junction
+		(at 57.15 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee7d083d-8e55-4548-b4f5-a21c15b5a87d")
+	)
+	(junction
+		(at 101.6 125.095)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0eef13f-ebcb-408c-8870-ca4590303a91")
+	)
+	(junction
+		(at 46.355 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f559692f-a3eb-4083-8ffb-221d3fcbdd39")
+	)
+	(junction
+		(at 57.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa1d04cb-1432-4aa1-99a9-5e826a736fb5")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 67.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e295c8-b17d-43ba-b8f4-46765254a8db")
+	)
+	(wire
+		(pts
+			(xy 67.31 185.42) (xy 67.31 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02962cf4-3c3f-41f5-ad22-c84365bc39ff")
+	)
+	(wire
+		(pts
+			(xy 116.84 119.38) (xy 116.84 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a03376-47bd-41a4-800d-984ddf1f7262")
+	)
+	(wire
+		(pts
+			(xy 242.57 115.57) (xy 247.015 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ba5b1a-da32-4a69-8e49-41560a7cd159")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 100.33 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082e6f38-ecec-4544-84f7-399da07369b2")
+	)
+	(wire
+		(pts
+			(xy 67.31 115.57) (xy 82.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0988f856-0e43-4d1a-8ae2-8bd3c744168a")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 97.155 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7d26d4-30cb-4b50-b908-1e75ca3c1275")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 104.14 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2cdf61-10af-4561-be26-3227e220f0ff")
+	)
+	(wire
+		(pts
+			(xy 178.435 99.695) (xy 187.96 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d758a6e-d42e-4a99-98c8-61576a1c178f")
+	)
+	(wire
+		(pts
+			(xy 101.6 119.38) (xy 101.6 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e61e5a-6b80-4f55-84ba-0d1183bedecb")
+	)
+	(wire
+		(pts
+			(xy 242.57 93.345) (xy 262.255 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132038ae-3ac3-46c0-922b-11797d3d2128")
+	)
+	(wire
+		(pts
+			(xy 253.365 33.02) (xy 253.365 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1351e482-a205-46d7-bf2f-8d5bb81f28fe")
+	)
+	(wire
+		(pts
+			(xy 178.435 102.87) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14cea8f8-f932-4606-a0e0-059f5783bc19")
+	)
+	(wire
+		(pts
+			(xy 236.22 33.02) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a506ace-8505-4a04-b0d2-10d4b7789381")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 57.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6c3874-b0e5-461a-bb6d-be1061ebcf31")
+	)
+	(wire
+		(pts
+			(xy 262.255 88.265) (xy 247.015 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0f3172-372d-465e-9f04-e713929ff3ef")
+	)
+	(wire
+		(pts
+			(xy 253.365 22.86) (xy 253.365 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6fca5c-e32e-48a0-8deb-91c808d0cdc7")
+	)
+	(wire
+		(pts
+			(xy 153.67 91.44) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e813b2-b515-482f-bc7f-9281139187e4")
+	)
+	(wire
+		(pts
+			(xy 149.225 93.98) (xy 149.225 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24704825-e5fb-45d5-80db-86470c578e7d")
+	)
+	(wire
+		(pts
+			(xy 81.915 163.83) (xy 87.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a352c3-ac37-463f-a917-847a63c9fd47")
+	)
+	(wire
+		(pts
+			(xy 101.6 40.005) (xy 101.6 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e4f32a-349d-4d5f-a135-e88e19c6f94b")
+	)
+	(wire
+		(pts
+			(xy 262.255 90.805) (xy 242.57 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2815b8ce-9a09-4cff-9c4d-ea235aa22c21")
+	)
+	(wire
+		(pts
+			(xy 67.31 101.6) (xy 89.535 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a68db7-0f67-43cd-89b7-7dbafc497408")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 178.435 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a70a765-fca6-4057-a144-f6e2b93e1e5a")
+	)
+	(wire
+		(pts
+			(xy 253.365 64.77) (xy 253.365 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccd4322-995d-40aa-8f7f-ee7fbad2ad63")
+	)
+	(wire
+		(pts
+			(xy 238.125 98.425) (xy 238.125 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e753ab6-3921-401e-ad98-d8c0116c531c")
+	)
+	(wire
+		(pts
+			(xy 74.93 91.44) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecb257c-1784-410b-b478-bcbe8a25b4cb")
+	)
+	(wire
+		(pts
+			(xy 238.76 60.96) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f30fc82-0583-434b-9794-e8a8e7bb4a50")
+	)
+	(wire
+		(pts
+			(xy 101.6 125.095) (xy 92.71 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321a6d98-e323-4f08-8b0d-fa2320985ffb")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326b82d8-0b42-4e06-8f50-6e516ccbb1c1")
+	)
+	(wire
+		(pts
+			(xy 89.535 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c29f1e-acba-4a45-b4f0-fa321f78ef65")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 89.535 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3645a1ba-c5af-43b1-910b-05c0ce7fa613")
+	)
+	(wire
+		(pts
+			(xy 67.31 157.48) (xy 67.31 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371f5c80-70a9-4bc8-b31e-f950f20f3842")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 89.535 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3732b2d8-8ded-47f1-81a8-b05ce82fc908")
+	)
+	(wire
+		(pts
+			(xy 119.38 130.175) (xy 116.84 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cef88c-1df5-4694-ae4d-65bb28ccc8a5")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb0ba63-c8d7-4fb8-a45d-24edcbff5a16")
+	)
+	(wire
+		(pts
+			(xy 253.365 100.965) (xy 253.365 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb736a4-a8bb-4494-b6b4-a23d69cfbc92")
+	)
+	(wire
+		(pts
+			(xy 247.015 113.03) (xy 247.015 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec89ed9-1792-40bd-9142-eb7c425d7797")
+	)
+	(wire
+		(pts
+			(xy 169.545 78.74) (xy 169.545 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40be05a9-19da-4e3b-a7b0-27b3b2e3a635")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 89.535 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431d75cc-aded-4a81-a9c7-1e5e71de0e7c")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 166.37 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fc94a4-1fca-4af5-98b2-9e30a8ab278d")
+	)
+	(wire
+		(pts
+			(xy 178.435 76.2) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45181d9d-6a17-4bf6-ac0b-95e50f96e927")
+	)
+	(wire
+		(pts
+			(xy 57.15 185.42) (xy 57.15 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479b9012-0290-4882-9708-180b55dca626")
+	)
+	(wire
+		(pts
+			(xy 262.255 100.965) (xy 253.365 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480528c0-99fe-4922-9349-1836efe4de95")
+	)
+	(wire
+		(pts
+			(xy 262.255 85.725) (xy 247.015 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485a7729-06c3-4c46-9dc9-380d08db057f")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c3acc7-290f-4084-bf4a-5243dcfdd56a")
+	)
+	(wire
+		(pts
+			(xy 247.015 115.57) (xy 253.365 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49185227-6c9f-42c8-ac4d-994c59d1de5d")
+	)
+	(wire
+		(pts
+			(xy 67.31 173.99) (xy 67.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ec3311-9a85-4bce-af40-122edd7b2436")
+	)
+	(wire
+		(pts
+			(xy 253.365 33.02) (xy 248.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b96557a-c26c-4516-8636-245ab9739fb4")
+	)
+	(wire
+		(pts
+			(xy 232.41 33.02) (xy 232.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc103f6-caaa-4434-ac5d-359e7ee16a40")
+	)
+	(wire
+		(pts
+			(xy 131.445 99.06) (xy 133.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c29af0b-3c2a-4ffc-9591-603e62c15043")
+	)
+	(wire
+		(pts
+			(xy 169.545 86.36) (xy 178.435 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c76529-47b0-4b0f-b694-0f86c7a0e17e")
+	)
+	(wire
+		(pts
+			(xy 89.535 83.82) (xy 62.865 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56270680-4d62-4bb6-8643-2e9cc24ece1e")
+	)
+	(wire
+		(pts
+			(xy 131.445 81.28) (xy 166.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56747b55-b175-4af9-ba1c-f79aeff63343")
+	)
+	(wire
+		(pts
+			(xy 242.57 90.805) (xy 231.775 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ab1383-a42e-4696-a1a8-366d721f1567")
+	)
+	(wire
+		(pts
+			(xy 247.015 85.725) (xy 231.775 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0192e8-a49e-4b54-9e28-5d0c684b1e5b")
+	)
+	(wire
+		(pts
+			(xy 111.125 163.83) (xy 106.68 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627cc7f5-6672-4416-873e-962891c6c04b")
+	)
+	(wire
+		(pts
+			(xy 109.22 62.23) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6621c1e1-66d6-4e0a-b1e9-3b2f95d58309")
+	)
+	(wire
+		(pts
+			(xy 231.775 93.345) (xy 242.57 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67af885f-72c4-4208-a703-86da9309835c")
+	)
+	(wire
+		(pts
+			(xy 89.535 78.74) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b9c6cb-6ddb-4aa5-9088-0a4216eb2d29")
+	)
+	(wire
+		(pts
+			(xy 267.97 60.96) (xy 259.715 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f73d547-22a1-4d73-b603-6a28aa077969")
+	)
+	(wire
+		(pts
+			(xy 46.355 101.6) (xy 46.355 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c6df37-8641-419e-8e06-db47d5f9204c")
+	)
+	(wire
+		(pts
+			(xy 131.445 104.14) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c80343-62c1-46c4-901a-8058f3f5a0c4")
+	)
+	(wire
+		(pts
+			(xy 131.445 78.74) (xy 169.545 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735a33f8-1ed5-404b-9dbe-3eff32c27296")
+	)
+	(wire
+		(pts
+			(xy 178.435 89.535) (xy 187.96 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a89a88-034b-4a43-be6c-72b8236849a9")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 57.15 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757ac3e0-0114-44d9-81cb-71e03f32021b")
+	)
+	(wire
+		(pts
+			(xy 82.55 104.14) (xy 89.535 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771a45af-f6ca-461f-98f6-f4df7dfb67a8")
+	)
+	(wire
+		(pts
+			(xy 46.355 185.42) (xy 46.355 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787bc21b-b7d0-4624-a664-5d4404c5dbef")
+	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794bbc0a-0e08-407f-bf01-ce5a928e61f1")
+	)
+	(wire
+		(pts
+			(xy 46.355 115.57) (xy 46.355 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79783882-5a10-4aca-bcb0-5fccd257ef5e")
+	)
+	(wire
+		(pts
+			(xy 111.76 127.635) (xy 109.22 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5c578e-8222-4860-9bd0-654863873f73")
+	)
+	(wire
+		(pts
+			(xy 89.535 81.28) (xy 62.865 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b85e61c-34c5-42d5-a53e-83bc4f9fb07e")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 89.535 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5da342-29ba-46e9-96c0-43619074fb43")
+	)
+	(wire
+		(pts
+			(xy 131.445 83.82) (xy 163.195 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec7df31-d323-4b2b-8072-365f4ef19727")
+	)
+	(wire
+		(pts
+			(xy 62.23 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80cfada5-5001-41c9-892f-927dfbec8df7")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.095) (xy 101.6 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fbf072-423a-4f31-a466-3e1f465b40b3")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 46.355 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82423e56-2a3e-4afd-a61f-c35ddc2d8b64")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83cadf37-7abb-4a98-b2b3-8b965dd80a52")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a17450-12a3-436d-9095-de33e9d78c82")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 106.68 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86222517-0a10-479b-919d-26683600bf27")
+	)
+	(wire
+		(pts
+			(xy 106.68 163.83) (xy 106.68 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870d5587-2766-42c2-bf04-35c442173dda")
+	)
+	(wire
+		(pts
+			(xy 242.57 68.58) (xy 247.015 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e6d57f-91ec-4dbe-87d4-748fd19bd85c")
+	)
+	(wire
+		(pts
+			(xy 74.93 69.85) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89378c2a-0f5c-4068-9d89-f6ffbfc10b03")
+	)
+	(wire
+		(pts
+			(xy 149.225 113.03) (xy 149.225 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e6c2a2-f6b3-467a-93cf-50e0d8f9e55a")
+	)
+	(wire
+		(pts
+			(xy 156.845 88.9) (xy 156.845 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a538159-9757-4ae0-a004-4b60c3168a96")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3c1530-0819-449d-895f-a8234bf68417")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 247.015 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccafa0e-e2bc-4fc7-9b57-bbf8c0e7e9c2")
+	)
+	(wire
+		(pts
+			(xy 242.57 93.345) (xy 242.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1fb226-336f-45c5-a441-c7552c0929aa")
+	)
+	(wire
+		(pts
+			(xy 67.31 101.6) (xy 67.31 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9019b6e9-0fa3-4452-b993-f54fd818d8b7")
+	)
+	(wire
+		(pts
+			(xy 46.355 173.99) (xy 46.355 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906af9a0-5cba-4623-b2bf-198d68f2b42d")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 114.3 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935cf87f-7605-4918-b1e1-5cedd4b728e3")
+	)
+	(wire
+		(pts
+			(xy 72.39 93.98) (xy 89.535 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941c4b79-f84f-426f-ab45-ecd457b49903")
+	)
+	(wire
+		(pts
+			(xy 131.445 86.36) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b06a91-0b05-4884-bbc9-2931989aa956")
+	)
+	(wire
+		(pts
+			(xy 242.57 68.58) (xy 242.57 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9767b4a4-c672-45d4-930b-c6685a79d958")
+	)
+	(wire
+		(pts
+			(xy 119.38 62.23) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e0d7aa-ef64-46d5-86e4-7d1be531f0af")
+	)
+	(wire
+		(pts
+			(xy 67.31 113.665) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983bd852-0362-46c1-aaa2-e83472664c23")
+	)
+	(wire
+		(pts
+			(xy 149.225 93.98) (xy 149.225 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b97e14-b3ed-4365-abc9-f8ea2012ec16")
+	)
+	(wire
+		(pts
+			(xy 253.365 27.94) (xy 262.255 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c9bc11-1d01-4e14-beb7-ea56656e3fb9")
+	)
+	(wire
+		(pts
+			(xy 57.15 173.99) (xy 57.15 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991e08b2-d132-45f6-b478-cf606ec9f28b")
+	)
+	(wire
+		(pts
+			(xy 238.125 113.03) (xy 238.125 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a97a0d2-dcbb-4bed-947f-4351b410243a")
+	)
+	(wire
+		(pts
+			(xy 131.445 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be09c71-e43d-4ad0-8a2e-8825f5343066")
+	)
+	(wire
+		(pts
+			(xy 262.255 144.145) (xy 252.73 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c761532-51c3-41aa-a124-89dc7dcc9a8d")
+	)
+	(wire
+		(pts
+			(xy 262.255 141.605) (xy 252.73 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9c2f1b-af9c-4b0d-9518-d62e72417e86")
+	)
+	(wire
+		(pts
+			(xy 119.38 119.38) (xy 119.38 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fa1630d-26d1-4d65-9f75-32d5ed272b70")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 106.68 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a026deb2-6b69-4ea3-9c5e-4b92478d2692")
+	)
+	(wire
+		(pts
+			(xy 149.225 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a064af40-a0ec-4c1c-aace-d27457c4f8e7")
+	)
+	(wire
+		(pts
+			(xy 163.195 99.695) (xy 178.435 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1960b52-4bf1-44e3-9b6c-5452a7198f4d")
+	)
+	(wire
+		(pts
+			(xy 238.125 68.58) (xy 242.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53f5609-c7ac-43ab-ae46-a9ec92538cf3")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 104.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8080fc3-7fde-4ab6-a0e1-7446feb8121a")
+	)
+	(wire
+		(pts
+			(xy 262.255 98.425) (xy 238.125 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b089e4-6761-4678-893a-5bdf4d15ed02")
+	)
+	(wire
+		(pts
+			(xy 238.125 83.185) (xy 238.125 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc549cd-92ac-4d96-9583-b36400c50b36")
+	)
+	(wire
+		(pts
+			(xy 35.56 161.29) (xy 35.56 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebd15ab-15ad-4c24-ba45-e7e74549a29a")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd83572-f787-43ea-b930-426989f2479d")
+	)
+	(wire
+		(pts
+			(xy 57.15 115.57) (xy 67.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0353a22-897e-4019-99a3-5b8d525bbe53")
+	)
+	(wire
+		(pts
+			(xy 131.445 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b093b57d-8d7f-42e3-b442-83bc3fc07f5f")
+	)
+	(wire
+		(pts
+			(xy 247.015 88.265) (xy 247.015 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e3a78a-e046-4782-be94-3462b6743365")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 119.38 55.245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b603df9e-2d46-4410-bde1-ac49c4a168e1")
+	)
+	(wire
+		(pts
+			(xy 35.56 185.42) (xy 35.56 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71930bf-26b2-4a5d-b187-250f388d9210")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 123.825 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97c0d2b-4a13-44e5-b9be-7d17a6bcc76d")
+	)
+	(wire
+		(pts
+			(xy 106.68 179.07) (xy 106.68 180.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab43faa-9878-4745-9fae-d8530d506a77")
+	)
+	(wire
+		(pts
+			(xy 46.355 115.57) (xy 57.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb207220-9ef3-4b13-a291-52019ceb993d")
+	)
+	(wire
+		(pts
+			(xy 247.015 88.265) (xy 231.775 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd65cc69-284e-47aa-9ed7-05f4f3280477")
+	)
+	(wire
+		(pts
+			(xy 131.445 88.9) (xy 156.845 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd797b9b-23e3-4e65-b2f1-76f34d9cd1e5")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 111.76 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4ddc19-e2ff-4ae6-b419-638fbbd14dfa")
+	)
+	(wire
+		(pts
+			(xy 106.68 132.715) (xy 114.3 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf23d1bf-6856-47c2-9260-d725f3bc8680")
+	)
+	(wire
+		(pts
+			(xy 156.845 113.03) (xy 178.435 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf717809-2cf4-4d18-9ba0-e8ff2df7f8c6")
+	)
+	(wire
+		(pts
+			(xy 89.535 86.36) (xy 62.865 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27cf0d9-8df4-4da7-a8f4-11628c542b71")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.175) (xy 92.71 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5138e06-3cfd-4b0b-aadc-73e629d8a8fd")
+	)
+	(wire
+		(pts
+			(xy 123.825 163.83) (xy 128.27 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0e5e12-d770-42de-8fd8-539892540ee4")
+	)
+	(wire
+		(pts
+			(xy 106.68 176.53) (xy 106.68 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc781c18-441f-4d0f-a769-1be661d76098")
+	)
+	(wire
+		(pts
+			(xy 178.435 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbdf87f-6fac-43e8-811d-917a4f06ae51")
+	)
+	(wire
+		(pts
+			(xy 262.255 139.065) (xy 252.73 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce90c8c6-7f47-4fd4-b4dc-a6e8ca2e799c")
+	)
+	(wire
+		(pts
+			(xy 247.015 68.58) (xy 247.015 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d175ae77-98aa-4e43-9c80-1010c1159241")
+	)
+	(wire
+		(pts
+			(xy 253.365 83.185) (xy 262.255 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d289ed4b-180d-4d83-aa7f-4d36dc2672fc")
+	)
+	(wire
+		(pts
+			(xy 101.6 55.245) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48fcb6c-326e-4dfa-85c2-8ce2777ad7f6")
+	)
+	(wire
+		(pts
+			(xy 242.57 113.03) (xy 242.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ab267a-da0f-422c-8938-42bf99a7da5e")
+	)
+	(wire
+		(pts
+			(xy 262.255 33.02) (xy 253.365 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d820e085-9f94-4373-b4db-fe498c8c2885")
+	)
+	(wire
+		(pts
+			(xy 82.55 115.57) (xy 82.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9997ce2-7225-43a2-89e0-f669597b9068")
+	)
+	(wire
+		(pts
+			(xy 57.15 90.17) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc485580-6aa7-4367-a680-9e92dc1b2183")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 109.22 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7e6fd4-a9e5-4a09-af1e-893daf3ebb54")
+	)
+	(wire
+		(pts
+			(xy 131.445 93.98) (xy 149.225 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd366745-157c-43f4-804e-24fa8e2a6f24")
+	)
+	(wire
+		(pts
+			(xy 238.125 115.57) (xy 242.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb8c779-833d-4774-a424-13036865f112")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.715) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04508ea-c8f9-4c12-a23c-6a9bbab86c10")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 101.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06841c2-cfc4-407a-a63c-d1d6faa15a90")
+	)
+	(wire
+		(pts
+			(xy 253.365 115.57) (xy 253.365 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07dc65b-aaf6-41c7-85be-5bc3102f6b15")
+	)
+	(wire
+		(pts
+			(xy 238.125 68.58) (xy 238.125 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2180c17-75f3-4bc1-85b7-20056ec50952")
+	)
+	(wire
+		(pts
+			(xy 178.435 113.03) (xy 187.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6535c54-0b98-4f0d-a1df-2bdcc8523def")
+	)
+	(wire
+		(pts
+			(xy 57.15 157.48) (xy 57.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e949ec22-4a79-4cb0-9ccc-18d8c6d19a68")
+	)
+	(wire
+		(pts
+			(xy 46.355 161.29) (xy 46.355 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b71a7b-67be-4c40-be34-c7174ed6339f")
+	)
+	(wire
+		(pts
+			(xy 238.125 95.885) (xy 231.775 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebacc0a1-210e-41a7-abd3-8ad922b60790")
+	)
+	(wire
+		(pts
+			(xy 57.15 113.665) (xy 57.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebda9350-e60f-4b02-95c4-f5a1c28c50c2")
+	)
+	(wire
+		(pts
+			(xy 109.22 127.635) (xy 92.71 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee990810-7cb6-4302-94ec-ff2e7df5f8a7")
+	)
+	(wire
+		(pts
+			(xy 238.125 98.425) (xy 231.775 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4c22a6-c970-4235-b4d5-105d54758178")
+	)
+	(wire
+		(pts
+			(xy 119.38 40.005) (xy 119.38 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0632b4f-f410-4f60-ba6d-9bc05e1caab5")
+	)
+	(wire
+		(pts
+			(xy 247.015 85.725) (xy 247.015 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f265a230-4108-4999-81f4-3e3f2fb7668d")
+	)
+	(wire
+		(pts
+			(xy 149.225 108.585) (xy 149.225 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f461537a-63bf-4319-8b81-b1f0d1d8220b")
+	)
+	(wire
+		(pts
+			(xy 131.445 76.2) (xy 178.435 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f493f562-1cb1-4bb1-b2e2-47eeba79c7db")
+	)
+	(wire
+		(pts
+			(xy 35.56 173.99) (xy 35.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b57555-3db2-43aa-9f07-48bbcf272122")
+	)
+	(wire
+		(pts
+			(xy 166.37 89.535) (xy 178.435 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ff4ba7-1728-4a61-9203-db84575a5f53")
+	)
+	(wire
+		(pts
+			(xy 262.255 95.885) (xy 238.125 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d2a0d5-7c7a-460d-82e4-cfe38b023297")
+	)
+	(wire
+		(pts
+			(xy 242.57 60.96) (xy 242.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70af35d-adb2-49f5-bfe3-43b6209eddbb")
+	)
+	(wire
+		(pts
+			(xy 46.355 113.665) (xy 46.355 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f940ec91-1258-4ce7-91ab-a7d960b4e652")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9baf097-130f-4462-8fcc-e5677eec6d99")
+	)
+	(wire
+		(pts
+			(xy 106.68 179.07) (xy 128.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9a26db-3ae6-4e7b-9c07-5ddd1984bf9c")
+	)
+	(wire
+		(pts
+			(xy 163.195 83.82) (xy 163.195 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd392450-10a0-4612-a428-283b13feae24")
+	)
+	(wire
+		(pts
+			(xy 242.57 83.185) (xy 242.57 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0327e5-06ea-4faa-aa62-f7954dde290d")
+	)
+	(label "U"
+		(at 92.71 125.095 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "070f3e3e-6397-425b-935b-36b4057599ab")
+	)
+	(label "FB"
+		(at 106.68 158.115 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cd1437d-b843-4cb3-8a59-cf53f6e02b53")
+	)
+	(label "HAN"
+		(at 187.96 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4992eb56-590c-44b3-8e0f-4c3e8e958ad7")
+	)
+	(label "HCN"
+		(at 187.96 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50f1a0a6-8eeb-40eb-970b-7b2eed1c163c")
+	)
+	(label "HAP"
+		(at 231.775 85.725 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "558892f4-4094-41af-a46d-6e7766e5ffc8")
+	)
+	(label "HBN"
+		(at 231.775 93.345 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6142d45f-aff4-4067-9f67-957d2bf01137")
+	)
+	(label "HBP"
+		(at 231.775 90.805 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a61b79b-2867-4e2c-a24b-fe3eef859c3b")
+	)
+	(label "HBN"
+		(at 187.96 89.535 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6cc6d134-8f2c-451c-8395-3306a70d7033")
+	)
+	(label "GND_BK"
+		(at 128.27 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ab0a039-ccb0-4bba-a398-5d7b8947ffad")
+	)
+	(label "V"
+		(at 92.71 127.635 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "836a910c-9548-4b2d-ae6c-ee8a80ba99cd")
+	)
+	(label "FB"
+		(at 62.865 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88745751-893f-42a3-9efb-ecde086ee60e")
+	)
+	(label "W"
+		(at 92.71 130.175 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c4fbd8a-5241-48cd-91bc-1599e3f1a952")
+	)
+	(label "SW"
+		(at 128.27 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9866f7eb-d3d3-471d-a7e8-0318275cbd31")
+	)
+	(label "SW"
+		(at 62.865 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac5d4494-7a7f-4275-acbc-1739dc9dc7c7")
+	)
+	(label "HBP"
+		(at 187.96 99.695 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2c8072b-b11b-481a-a14e-7d9dbea03601")
+	)
+	(label "HCP"
+		(at 231.775 95.885 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb088650-48d7-4de3-b9e3-9f7f9e520c80")
+	)
+	(label "HCN"
+		(at 231.775 98.425 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b9d0ea-975e-41ef-bd2e-11ff74a83a27")
+	)
+	(label "HAP"
+		(at 187.96 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5b3e245-209d-4937-9c5d-3b1954981000")
+	)
+	(label "U"
+		(at 252.73 139.065 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd7b5480-d009-4307-944c-5beb7f17283c")
+	)
+	(label "V"
+		(at 252.73 141.605 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e55be03a-d47d-4509-8188-7de5307551a1")
+	)
+	(label "W"
+		(at 252.73 144.145 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5a37237-6275-4269-bf87-6be0b37d50da")
+	)
+	(label "GND_BK"
+		(at 62.865 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec8fe97d-817b-4493-8949-05c67d3070d9")
+	)
+	(label "HCP"
+		(at 187.96 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0c4c414-fac8-45b6-ada9-3abeb83b8940")
+	)
+	(label "HAN"
+		(at 231.775 88.265 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe031b9b-69b2-46e4-be9d-0eae535692d6")
+	)
+	(hierarchical_label "BRAKE"
+		(shape input)
+		(at 106.68 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04ab101c-31e3-4525-ad80-f52fb952a661")
+	)
+	(hierarchical_label "SLEEP"
+		(shape input)
+		(at 133.35 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23dce6c1-b67f-4787-aef9-68bed95022ee")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 104.14 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f98ef02-f593-4562-9e20-2b4573638019")
+	)
+	(hierarchical_label "DRVOFF"
+		(shape input)
+		(at 133.35 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7653ff19-d6a1-43c8-99df-efc406af8031")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 123.825 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e4ce4f3-1660-4ff6-a46d-b34724cbb6a1")
+	)
+	(hierarchical_label "FAULT"
+		(shape output)
+		(at 67.31 188.595 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ff49323-61fd-4141-98b1-ce4c74987635")
+	)
+	(hierarchical_label "FGOUT"
+		(shape output)
+		(at 97.155 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0d65ace-aecd-4804-86f9-6b293d31c8aa")
+	)
+	(hierarchical_label "ILIM"
+		(shape input)
+		(at 109.22 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a59f8b87-a3ee-4d8c-a48b-ecb299ac14a5")
+	)
+	(hierarchical_label "FAULT"
+		(shape output)
+		(at 133.35 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be26d4c8-d274-4605-b4fa-2109a09a0c4b")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 116.84 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbe63249-a82a-401f-940d-891400b9a219")
+	)
+	(hierarchical_label "CS2"
+		(shape input)
+		(at 111.76 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f81a1b32-f0f5-48e7-b223-75eb270c5a92")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 114.3 59.69 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffec7d73-8e67-470b-9eb5-63f86ddd139a")
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+5V-power")
+		(at 81.915 163.83 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000608d548f")
+		(property "Reference" "#PWR046"
+			(at 79.629 163.83 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 78.105 163.83 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.915 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.915 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.915 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8258896b-46e7-4473-875b-a7aa6611505d")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+3.3V-power")
+		(at 149.225 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000608d6090")
+		(property "Reference" "#PWR051"
+			(at 149.225 68.326 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.225 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.225 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a85915-6af4-4a82-982a-71c357078211")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+3.3V-power")
+		(at 101.6 40.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000608e3d65")
+		(property "Reference" "#PWR047"
+			(at 101.6 41.021 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 35.56 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "effb8628-837c-422d-a2f1-7e021044142e")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+3.3V-power")
+		(at 119.38 40.005 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000608e3f5e")
+		(property "Reference" "#PWR050"
+			(at 119.38 41.021 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 120.65 35.56 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf5a244-aa1f-4738-8a94-222c8178633d")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:Jumper_3_Bridged12-Jumper")
+		(at 253.365 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006091d84f")
+		(property "Reference" "JP2"
+			(at 253.365 58.3184 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "HAL_SEL"
+			(at 253.365 56.388 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "200-TMS10301GS"
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TMS-103-01-G-S"
+			(at 253.365 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5875c139-2729-4eab-9924-20ba7058feb8")
+		)
+		(pin "1"
+			(uuid "0c8fd8b1-4792-4861-abdb-12ba6a012363")
+		)
+		(pin "2"
+			(uuid "9e42991e-9e5e-470c-9762-0f28b4b01e34")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+5V-power")
+		(at 267.97 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609254cc")
+		(property "Reference" "#PWR058"
+			(at 270.256 60.96 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 271.78 60.96 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c79b91-4970-46c8-965f-e2e4863969aa")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:FUSE-device")
+		(at 93.98 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060949861")
+		(property "Reference" "F2"
+			(at 93.98 158.3182 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "200mA"
+			(at 93.98 160.2486 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "MF-ASML020/6-2"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "652-MF-ASML020/6-2"
+			(at 93.98 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1e210fc-f99a-4d32-816d-78802cc216af")
+		)
+		(pin "2"
+			(uuid "2588c9f5-b5d5-40f3-97fe-be8ab88f2d14")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+3.3V-power")
+		(at 238.76 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000609b9eef")
+		(property "Reference" "#PWR054"
+			(at 239.776 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 233.68 60.96 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a2c7beb-f797-403d-885d-7a71e9e27a7f")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:HT")
+		(at 57.15 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060af537c")
+		(property "Reference" "#PWR042"
+			(at 57.15 154.432 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "HT"
+			(at 57.658 154.0256 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59a4c8aa-0869-4d52-9fc3-44ab4247db22")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 57.15 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060af5785")
+		(property "Reference" "R20"
+			(at 58.9534 166.6748 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 58.9534 168.6052 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 55.372 167.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RC0402FR-074K7L"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "603-RC0402FR-074K7L"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bbbeda0-190a-4355-a1e7-c5fa89a171ba")
+		)
+		(pin "1"
+			(uuid "31649b00-8e2c-4106-ad2c-5f093a8f5e7b")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GNDPWR-power")
+		(at 57.15 188.595 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060af5f0e")
+		(property "Reference" "#PWR043"
+			(at 57.15 187.325 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 55.1434 188.9506 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44dfff10-3a6b-4cd3-af50-0fa388ce0b63")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:LED-device")
+		(at 57.15 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b03561")
+		(property "Reference" "D7"
+			(at 59.1312 179.3748 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 59.1312 181.3052 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "604-APT1608SGC"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "APT1608SGC"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49cd70d2-a110-40c1-869d-ea5044e3e753")
+		)
+		(pin "1"
+			(uuid "2b0d12ce-6d84-4a4f-8b09-03e478c1ae4f")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 67.31 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b112dd")
+		(property "Reference" "R21"
+			(at 69.1134 166.6748 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 69.1134 168.6052 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 65.532 167.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402330RFKED"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "756-GWCR0402330RFT10"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cdc3d8a-6fd0-40af-8f76-c32751f5a46b")
+		)
+		(pin "2"
+			(uuid "04907432-ff8b-47f6-85f1-1ec415b86df7")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:LED-device")
+		(at 67.31 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b112f3")
+		(property "Reference" "D8"
+			(at 69.2912 179.3748 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RED"
+			(at 69.2912 181.3052 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "604-APT1608EC"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "APT1608EC"
+			(at 67.31 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dfc69c6-5eb6-4f8f-8d61-cfba8f05c3b3")
+		)
+		(pin "1"
+			(uuid "e5516c67-1c29-4f1f-842d-0f86d2c31f61")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+3.3V-power")
+		(at 67.31 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b18e8b")
+		(property "Reference" "#PWR044"
+			(at 67.31 158.496 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 67.5386 153.7716 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd69dc18-135d-4107-a3b2-a4b8c3a52a87")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 46.355 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a3e5")
+		(property "Reference" "R19"
+			(at 48.1584 166.6748 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 48.1584 168.6052 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.133 167.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW04021K00FKEDC"
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-CRCW04021K00FKEDC"
+			(at 46.355 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c08c1f-0e5a-4485-8e7e-7aca7d4e597d")
+		)
+		(pin "2"
+			(uuid "d97db846-af9e-4491-9875-ad58885b643c")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 46.355 188.595 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a3ed")
+		(property "Reference" "#PWR040"
+			(at 46.355 188.595 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.355 190.373 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3646dca9-a38f-4d9a-930b-4a11429afad3")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:LED-device")
+		(at 46.355 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a3f3")
+		(property "Reference" "D6"
+			(at 48.3362 179.3748 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 48.3362 181.3052 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "604-APT1608QBC/D"
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "APT1608QBC/D"
+			(at 46.355 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f64da632-6708-40bc-b9b0-f31e832fc434")
+		)
+		(pin "2"
+			(uuid "f8fffc9b-9b0c-4410-be0b-3bf1fa967ae6")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+5V-power")
+		(at 46.355 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a3fa")
+		(property "Reference" "#PWR039"
+			(at 46.355 155.194 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 46.2534 154.0256 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "175da7ba-e8a6-4482-9291-d859527cd6fa")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 35.56 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a406")
+		(property "Reference" "R18"
+			(at 37.3634 166.6748 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 37.3634 168.6052 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 37.338 167.64 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW04021K00FKEDC"
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-CRCW04021K00FKEDC"
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f34fc7c-e7d6-49db-b2e3-47ddaf90812f")
+		)
+		(pin "1"
+			(uuid "78357085-b685-4c30-8e4b-eafde539e7a9")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 35.56 188.595 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a40e")
+		(property "Reference" "#PWR037"
+			(at 35.56 188.595 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 190.373 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df50e105-ab80-4911-97f5-e952b260c801")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:LED-device")
+		(at 35.56 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a414")
+		(property "Reference" "D5"
+			(at 37.5412 179.3748 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ORANGE"
+			(at 37.5412 181.3052 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "604-AP1608SECK"
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "AP1608SECK"
+			(at 35.56 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3ca3b63-da71-4a7d-85b2-714340e578ca")
+		)
+		(pin "1"
+			(uuid "fd2eae7e-bcfd-4f1e-9934-8a4babacbbfb")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:+3.3V-power")
+		(at 35.56 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060b5a41b")
+		(property "Reference" "#PWR036"
+			(at 35.56 158.496 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 35.7886 153.7716 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bb633d6-eb22-404a-9924-aaacccb357e4")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:MCT8316Z-texas2")
+		(at 110.49 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f23cb")
+		(property "Reference" "U3"
+			(at 128.27 66.675 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "MCT8316ZR"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Driverino:QFN-40_EP_5x7_Pitch0.5mm"
+			(at 159.385 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "PMCT8316Z0TRGFR"
+			(at 110.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16,"
+			(uuid "2dac2c41-4c19-4f58-b78f-4a55db26946d")
+		)
+		(pin "17"
+			(uuid "bfb46904-e3eb-4b04-a6ad-3ea85a114e36")
+		)
+		(pin "18"
+			(uuid "53fbe348-aaf2-4ae4-a578-bd9474b037ba")
+		)
+		(pin "19"
+			(uuid "25f2e346-0290-41b7-af6b-5d61b707dadf")
+		)
+		(pin "21"
+			(uuid "d39ee165-4a8f-438b-9002-14b156f7a963")
+		)
+		(pin "22"
+			(uuid "f1222357-f662-4c9c-a2bb-8f90bc3e4a9d")
+		)
+		(pin "23"
+			(uuid "7dbce051-74a4-4c49-b2ca-a0d77e17d88a")
+		)
+		(pin "24"
+			(uuid "7ea20c6d-e42c-418a-963d-b8126d547339")
+		)
+		(pin "25"
+			(uuid "bcae0ce7-c6d4-4f06-83a4-447d0ff9eb6a")
+		)
+		(pin "26"
+			(uuid "1fb6c1b9-3cd3-4603-b59c-5c5f9c81d1df")
+		)
+		(pin "12"
+			(uuid "a9b2ef74-7dd9-4aa3-b8d1-f303ecd546e0")
+		)
+		(pin "1"
+			(uuid "4be37343-efde-4e84-8c96-2166b956c45f")
+		)
+		(pin "11"
+			(uuid "4e2f0402-9bbf-45c8-85ac-c8fd9fe110a4")
+		)
+		(pin "14"
+			(uuid "e001be7e-27d6-4d47-bf5d-fdb51fe4ede8")
+		)
+		(pin "15"
+			(uuid "222e6891-24cf-4ed5-9f25-495730e86dba")
+		)
+		(pin "20"
+			(uuid "211e1871-2d2e-44fb-b543-bb1e8e276c23")
+		)
+		(pin "13"
+			(uuid "1578dc80-5fb7-4b04-a41e-c10bcf780ebe")
+		)
+		(pin "2"
+			(uuid "08d67bfa-b46a-4712-a659-ae3c5819be55")
+		)
+		(pin "10"
+			(uuid "4ce59139-a223-46f8-8521-7b4a2420031a")
+		)
+		(pin "33"
+			(uuid "2a2deb16-81a7-443a-b783-4b1b1a84a6f8")
+		)
+		(pin "4"
+			(uuid "2077e016-3497-4928-a70d-9a87d7effa0a")
+		)
+		(pin "28"
+			(uuid "3abd5b37-b52d-4dc9-8ba9-1c17def8707e")
+		)
+		(pin "30"
+			(uuid "7c340b8d-6ed9-4f0d-9afd-5c0fa4405c5d")
+		)
+		(pin "7"
+			(uuid "6ae69554-216c-42bf-a4fc-8476536ee601")
+		)
+		(pin "35"
+			(uuid "79831e9e-750f-41d0-8868-a1cef71b30fe")
+		)
+		(pin "9"
+			(uuid "036acc7e-34b1-461a-ac21-0cbb1f42d771")
+		)
+		(pin "32"
+			(uuid "dba35fb1-17ab-4363-a857-ccfddab5515b")
+		)
+		(pin "41"
+			(uuid "eb98c23c-808f-42e7-b9b7-bebb765566b4")
+		)
+		(pin "40"
+			(uuid "e6d4ea8a-e5aa-4920-906f-65d7d8207fa5")
+		)
+		(pin "27"
+			(uuid "3bb70a6a-be95-477c-9651-146b4cea7cdf")
+		)
+		(pin "31"
+			(uuid "4034ca0b-0d8f-44a1-b15b-0fe53799e189")
+		)
+		(pin "37"
+			(uuid "67ae1abc-e4f5-449b-840d-200b60e03721")
+		)
+		(pin "34"
+			(uuid "41805ea4-3fa4-4b7c-ba22-dbcd2a4c76c1")
+		)
+		(pin "36"
+			(uuid "cc90ee05-1ce1-46c3-88d3-e01e64c5cfc2")
+		)
+		(pin "3"
+			(uuid "fc9a7415-3088-4bf6-8e3c-3290dbb4ffdb")
+		)
+		(pin "39"
+			(uuid "2c870f32-2f57-48cf-9c40-e7bed677259b")
+		)
+		(pin "5"
+			(uuid "8dc8e332-37ce-4f0d-8eb0-780cea9ec36f")
+		)
+		(pin "29"
+			(uuid "1963e3f0-cf59-4dde-9681-6acd32b37638")
+		)
+		(pin "8"
+			(uuid "b8f937c0-3e96-45c5-a34a-f74f42129d10")
+		)
+		(pin "38"
+			(uuid "16bb883a-f5b8-4959-8cc2-52c3f392a865")
+		)
+		(pin "6"
+			(uuid "9523cb8a-0c61-485c-9efa-e27ba2bd8715")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:HT")
+		(at 57.15 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f23e0")
+		(property "Reference" "#PWR041"
+			(at 57.15 87.122 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "HT"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d994b41-57cd-4e0e-a52d-35e4ce94df98")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 68.58 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f23e8")
+		(property "Reference" "#PWR045"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.802 69.85 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb96c226-415a-4ba3-b18e-e861d687fd95")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 178.435 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2407")
+		(property "Reference" "C26"
+			(at 181.356 106.9848 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 181.356 108.9152 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.4698 104.14 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GCM155R71H104KE02J"
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "81-GCM155R71H104KE2J"
+			(at 178.435 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7229fb82-c034-44e0-98d9-4e93995bcf4b")
+		)
+		(pin "2"
+			(uuid "f1bf3d33-4bef-4d5a-91f0-b0a076a92f5f")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 178.435 94.615 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f240f")
+		(property "Reference" "C25"
+			(at 181.356 93.6498 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 181.356 95.5802 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.4698 90.805 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GCM155R71H104KE02J"
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "81-GCM155R71H104KE2J"
+			(at 178.435 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dca9d27-f2be-4973-8106-9a28b8137e81")
+		)
+		(pin "2"
+			(uuid "e408de28-5ee4-4da3-a287-9b868eb39d10")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 57.15 108.585 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2422")
+		(property "Reference" "C18"
+			(at 60.071 107.6198 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 60.071 109.5502 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 58.1152 112.395 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 108.585 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 57.15 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 57.15 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "810-C3216X7R1H106160"
+			(at 57.15 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "C3216X7R1H106K160AE"
+			(at 57.15 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c828d38-1dda-4e10-93b3-8e47ff880119")
+		)
+		(pin "1"
+			(uuid "62420e0d-5eb5-40bf-aa9b-c566b2ddd77b")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GNDPWR-power")
+		(at 114.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2428")
+		(property "Reference" "#PWR049"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 112.2934 138.7856 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc16278c-1e69-4d23-9475-6a540ea58347")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 82.55 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2449")
+		(property "Reference" "C21"
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10nF"
+			(at 82.55 87.63 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 78.74 90.4748 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "81-GRM155R71H103JA8D"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GRM155R71H103JA88D"
+			(at 82.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78362306-8a67-4864-99c5-058b1d99d8ce")
+		)
+		(pin "2"
+			(uuid "ab15d0c1-649f-4a2b-ab95-51cf09eec719")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 149.225 103.505 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2468")
+		(property "Reference" "C23"
+			(at 146.3294 102.5398 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 146.3294 104.4702 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 150.1902 99.695 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.225 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 149.225 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 149.225 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "581-0603DC105MAT2A"
+			(at 149.225 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "0603DC105MAT2A"
+			(at 149.225 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a83f2934-64ec-4884-b4da-449f1be14911")
+		)
+		(pin "2"
+			(uuid "3c247da4-c6ed-42aa-91ed-ea3d24d98e40")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 149.225 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2471")
+		(property "Reference" "#PWR052"
+			(at 149.225 118.11 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.225 119.888 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.225 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.225 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.225 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016c36fa-4741-4db2-969f-416639099baf")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 101.6 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2482")
+		(property "Reference" "R22"
+			(at 103.4034 47.9298 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 103.4034 49.8602 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.822 48.895 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "755-SFR01MZPF5101"
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SFR01MZPF5101"
+			(at 101.6 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f984503-ed8e-4983-8ec0-4e70eadd5c1f")
+		)
+		(pin "2"
+			(uuid "b5d256b5-4656-4496-921e-35f2cfcc7983")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 67.31 108.585 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f2491")
+		(property "Reference" "C20"
+			(at 70.231 107.6198 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 70.231 109.5502 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 68.2752 112.395 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 108.585 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GCM155R71H104KE02J"
+			(at 67.31 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 67.31 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 67.31 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "81-GCM155R71H104KE2J"
+			(at 67.31 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b418d35e-3d37-4965-9cb6-5e731e0667f4")
+		)
+		(pin "2"
+			(uuid "c68b9eb1-3f73-440a-968c-f96a48389de3")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 178.435 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f24a8")
+		(property "Reference" "C24"
+			(at 181.356 80.3148 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 181.356 82.2452 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.4698 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GCM155R71H104KE02J"
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "81-GCM155R71H104KE2J"
+			(at 178.435 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17d4d30-b94a-4015-a930-49d62507123c")
+		)
+		(pin "2"
+			(uuid "c8d18675-4a01-46f5-a54e-36cde091302c")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 67.31 93.98 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f24bd")
+		(property "Reference" "C19"
+			(at 67.31 88.1634 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 67.31 90.0938 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.5 93.0148 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "581-0603DC105MAT2A"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "0603DC105MAT2A"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "128d8fc3-5656-4e9a-a98f-6e4923af5bd0")
+		)
+		(pin "1"
+			(uuid "5327f22b-b60a-4160-9fd5-fcd011385ecf")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:CP1-device")
+		(at 46.355 108.585 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f24d7")
+		(property "Reference" "C17"
+			(at 49.7332 107.6198 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150uF"
+			(at 49.7332 109.5502 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 41.91 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 41.91 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "manf#" "EEE-FTV151XAV"
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "667-EEE-FTV151XAV"
+			(at 46.355 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd6a34e5-c6d5-447c-9aaa-1724cecd0a77")
+		)
+		(pin "1"
+			(uuid "5ed39fbb-01c5-4529-bb30-68ea42b1b832")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GNDPWR-power")
+		(at 46.355 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f24df")
+		(property "Reference" "#PWR038"
+			(at 46.355 116.84 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 44.3484 118.4656 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.355 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.355 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.355 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de1456c2-888d-47b2-9cef-0473c40f4243")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 119.38 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000613f24ea")
+		(property "Reference" "R23"
+			(at 121.1834 47.9298 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 121.1834 49.8602 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 117.602 48.895 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "755-SFR01MZPF5101"
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SFR01MZPF5101"
+			(at 119.38 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1088d39-3d77-414c-b2a2-64c75809802d")
+		)
+		(pin "1"
+			(uuid "375604e7-151b-4774-bfe3-21294cf09113")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:CONN_3-conn")
+		(at 271.145 141.605 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614094b0")
+		(property "Reference" "P7"
+			(at 274.3962 140.8938 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOT"
+			(at 274.3962 142.8242 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Driverino:39773-0003"
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "39773-0003"
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "538-39773-0003"
+			(at 271.145 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c046200-bd97-48a0-a9c6-ed7a70e5d203")
+		)
+		(pin "3"
+			(uuid "f2a2c004-51f3-47a5-a1a9-f7fb0a15dcf1")
+		)
+		(pin "2"
+			(uuid "3a8a4110-f936-411e-b61b-ce30723d8123")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:CONN_8-conn")
+		(at 271.145 92.075 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614094ba")
+		(property "Reference" "P6"
+			(at 267.7668 78.0542 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "HALL"
+			(at 267.7668 79.9846 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical"
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "53047-0810"
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "538-53047-0810"
+			(at 271.145 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e9818c-2886-437d-b598-449ef1348cec")
+		)
+		(pin "2"
+			(uuid "9f7834ab-f0d2-492a-b8c8-fec90635c5af")
+		)
+		(pin "7"
+			(uuid "9b61b75d-72a6-4870-bd8f-7980f58d3c39")
+		)
+		(pin "5"
+			(uuid "23dd1bee-857d-426a-9f67-5de00e1275f9")
+		)
+		(pin "6"
+			(uuid "9ce578bf-11b5-4fd1-98cb-d66b2e2eb294")
+		)
+		(pin "8"
+			(uuid "3678a591-c512-40a4-b33e-87c6e9d07e63")
+		)
+		(pin "4"
+			(uuid "65505b21-c878-47f3-a853-5eafa54ddebe")
+		)
+		(pin "3"
+			(uuid "d7a71f05-e515-4d03-9129-0b37009ec4ea")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "P6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 253.365 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614094c1")
+		(property "Reference" "#PWR057"
+			(at 253.365 119.38 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.365 121.158 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.365 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.365 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.365 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e22bab7b-e326-471d-a6a4-b07147d2b9f4")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 238.125 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614094e1")
+		(property "Reference" "R25"
+			(at 236.3216 105.7148 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 236.3216 107.6452 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.347 106.68 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.125 106.68 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.125 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 238.125 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 238.125 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-RCC04020000Z0ED"
+			(at 238.125 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCC04020000Z0ED"
+			(at 238.125 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e6caefc-2312-4bd0-a496-4f55cd77ffa3")
+		)
+		(pin "1"
+			(uuid "d4a57e07-a8cf-4829-bb4f-9952f5083738")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 242.57 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614094e7")
+		(property "Reference" "R28"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 242.57 107.315 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.792 106.68 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-RCC04020000Z0ED"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCC04020000Z0ED"
+			(at 242.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b43fd875-9d8d-44a2-8c1a-30dd85564459")
+		)
+		(pin "2"
+			(uuid "5adbd4a1-83af-4ccf-8ffc-35be0e17a422")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 247.015 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614094ed")
+		(property "Reference" "R30"
+			(at 248.8184 105.7148 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 248.8184 107.6452 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.237 106.68 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-RCC04020000Z0ED"
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCC04020000Z0ED"
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3e787a8-232a-4976-9daf-aab6d4c1fe51")
+		)
+		(pin "1"
+			(uuid "0819dbd7-5331-4442-b280-75b436674935")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 247.015 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061409506")
+		(property "Reference" "R29"
+			(at 248.8184 75.8698 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 248.8184 77.8002 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 245.237 76.835 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW040210K0FKEDC"
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-CRCW040210K0FKEDC"
+			(at 247.015 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d185a6aa-2004-4b48-9b3a-aa9a138a6c4e")
+		)
+		(pin "1"
+			(uuid "392485b4-0336-44d6-9136-590772e6c597")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 242.57 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061409516")
+		(property "Reference" "R27"
+			(at 242.57 75.565 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.57 78.105 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.792 76.835 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW040210K0FKEDC"
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-CRCW040210K0FKEDC"
+			(at 242.57 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65270c1c-c193-455c-92f9-27ace6a7a65f")
+		)
+		(pin "2"
+			(uuid "6a6630d8-c6f9-475f-a297-52ee8ded021a")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 238.125 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061409526")
+		(property "Reference" "R24"
+			(at 236.347 75.8698 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 236.347 77.8002 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.347 76.835 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW040210K0FKEDC"
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-CRCW040210K0FKEDC"
+			(at 238.125 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a782b0a-b4e3-4163-b75e-52e8bd16a0c4")
+		)
+		(pin "1"
+			(uuid "b78d35be-ae12-4146-8fb5-525af4e50206")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:CONN_2-conn")
+		(at 271.145 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614328c9")
+		(property "Reference" "P5"
+			(at 275.59 29.21 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWR_IN"
+			(at 275.59 31.75 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Driverino:39773-0002"
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "39773-0002"
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "538-39773-0002"
+			(at 271.145 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9532d7b2-409d-4622-8b3d-b8aeeb8c9c7e")
+		)
+		(pin "2"
+			(uuid "e13fed8a-8166-473e-ab78-424b01f2d14f")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:HT")
+		(at 253.365 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614328cf")
+		(property "Reference" "#PWR055"
+			(at 253.365 19.812 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "HT"
+			(at 253.873 19.4056 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.365 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.365 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.365 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8579e2-7c95-4c38-9c2a-954a453ff471")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GNDPWR-power")
+		(at 253.365 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614328d8")
+		(property "Reference" "#PWR056"
+			(at 253.365 36.83 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 251.3584 38.4556 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.365 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 253.365 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.365 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f89fa6d-a404-45f6-8eb1-9e616a6d584d")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:R-device")
+		(at 242.57 33.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614328e5")
+		(property "Reference" "R26"
+			(at 242.57 28.321 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 242.57 30.2514 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.57 34.798 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" ""
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" ""
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Productor" ""
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "RCC04020000Z0ED"
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "71-RCC04020000Z0ED"
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3adff402-e132-4649-ac3a-3a0deb6f6399")
+		)
+		(pin "1"
+			(uuid "e1acd2c0-f65e-4547-b4e0-e6524fc91ac6")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 232.41 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000614328ec")
+		(property "Reference" "#PWR053"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 39.878 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2440df34-2ff4-4e81-8409-5d01cdb4f074")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:INDUCTOR_SMALL-device")
+		(at 117.475 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006145d79b")
+		(property "Reference" "L2"
+			(at 117.475 158.9532 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47uH"
+			(at 117.475 160.8836 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CBC3225T470KRV"
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "963-CBC3225T470KRV"
+			(at 117.475 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "038b7f17-b24c-49ae-b299-5af1f8c1441c")
+		)
+		(pin "1"
+			(uuid "bead9ec8-015a-490a-9922-2f061aff72ea")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:C-device")
+		(at 106.68 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006145d7a1")
+		(property "Reference" "C22"
+			(at 109.601 170.4848 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 109.601 172.4152 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 105.7148 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Provider" "Mouser"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ProviderCode" "81-GCM31CR70J226KE3L"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "GCM31CR70J226KE23L"
+			(at 106.68 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f088b8f3-248d-4079-92a4-a083d0ffc2bd")
+		)
+		(pin "1"
+			(uuid "3fec5cb7-f581-4f9f-996f-ecc1a5567f19")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driverino-rescue:GND-power")
+		(at 106.68 180.975 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006145d7ab")
+		(property "Reference" "#PWR048"
+			(at 106.68 180.975 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 182.753 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ce12825-8ae0-4d72-a637-65c84f9079a1")
+		)
+		(instances
+			(project "Driverino"
+				(path "/28736f4a-d3e1-48d0-84cf-91ca743ca464/00000000-0000-0000-0000-0000613cddb7"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
